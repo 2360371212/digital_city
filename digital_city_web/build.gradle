@@ -1,0 +1,25 @@
+plugins {
+    id 'java'
+}
+
+group = 'org.dititalcity'
+version = '1.0.0'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testImplementation platform('org.junit:junit-bom:5.9.1')
+    testImplementation 'org.junit.jupiter:junit-jupiter'
+}
+bootJar {
+    archiveClassifier = 'jacob_Xu'
+    archiveBaseName = 'digital_city'
+//    mainClassName = 'com.digitalcity.ApplicationStarter'
+    archiveVersion = version.toString()
+    mainClass = 'org.digitalcity.ApplicationStarter'
+}
+test {
+    useJUnitPlatform()
+}

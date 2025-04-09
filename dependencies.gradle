@@ -1,0 +1,55 @@
+ext.versions = [
+        springboot           : '3.0.2',
+        junit                : '5.9.2',
+        junitPlatformLauncher: '1.9.2',
+        lombok               : '1.18.26',
+        // 配置druid依赖
+        mysql                : '8.0.32',
+        spring               : '6.0.4',
+        druid                : '1.2.16',
+        // 数据验证JSR303
+        validator            : '8.0.0.Final',
+        // fastjson
+        fastjson2            : '2.0.33',
+        // jwt
+        jjwt                 : '0.11.5',
+        jaxb                 : '2.3.1',
+        codec                : '1.15',
+        // mybatis
+        mybatisPlus          : '3.5.3.1',
+        // redis连接池
+        lettuce              : '6.2.5.RELEASE',
+        commonPool2          : '2.11.1'
+]
+
+ext.libraries = [
+        'spring-boot-gradle-plugin': "org.springframework.boot:spring-boot-gradle-plugin:${versions.springboot}",
+        // 用于测试的依赖
+        'junit-platform-launcher'  : "org.junit.platform:junit-platform-launcher:${versions.junitPlatformLauncher}",
+        'junit-jupiter-api'        : "org.junit.jupiter:junit-jupiter-api:${versions.junit}",
+        'junit-jupiter-engine'     : "org.junit.jupiter:junit-jupiter-engine:${versions.junit}",
+        'junit-vintage-engine'     : "org.junit.vintage:junit-vintage-engine:${versions.junit}",
+        'junit-bom'                : "org.junit:junit-bom:${versions.junit}",
+        // lombok插件
+        'lombok'                   : "org.projectlombok:lombok:${versions.lombok}",
+        // 配置druid依赖(数据库连接池配置)
+        'mysql-connector-j'        : "com.mysql:mysql-connector-j:${versions.mysql}",
+        'spring-jdbc'              : "org.springframework:spring-jdbc:${versions.spring}",
+        'druid-spring-boot-starter': "com.alibaba:druid-spring-boot-starter:${versions.druid}",
+        // mybatis
+        'mybatis-plus-boot-starter': "com.baomidou:mybatis-plus-boot-starter:${versions.mybatisPlus}",
+
+        // 数据验证JSR303
+        'hibernate-validator'      : "org.hibernate.validator:hibernate-validator:${versions.validator}",
+        // fastjson
+        'fastjson2'                : "com.alibaba.fastjson2:fastjson2:${versions.fastjson2}",
+        // jwt
+        'jjwt-api'                 : "io.jsonwebtoken:jjwt-api:${versions.jjwt}",
+        'jaxb-api'                 : "javax.xml.bind:jaxb-api:${versions.jaxb}",
+        'jjwt-impl'                : "io.jsonwebtoken:jjwt-impl:${versions.jjwt}",
+        'jjwt-jackson'             : "io.jsonwebtoken:jjwt-jackson:${versions.jjwt}",
+        'commons-codec'            : "commons-codec:commons-codec:${versions.codec}",
+        // redis
+        'lettuce-core'             : "io.lettuce:lettuce-core:${versions.lettuce}",
+        'commons-pool2'            : "org.apache.commons:commons-pool2:${versions.commonPool2}"
+]

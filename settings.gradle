@@ -1,0 +1,6 @@
+rootProject.name = 'digital_city'
+include 'digital_city_web'
+include 'digital_city_common'
+include 'digital-city-jwt-starter'
+include 'digital_city_spider'
+

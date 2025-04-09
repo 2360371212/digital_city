@@ -1,0 +1,114 @@
+2024-01-22 20:03:31.173  INFO [] 21036 --- [background-preinit] o.h.validator.internal.util.Version      : HV000001: Hibernate Validator 8.0.0.Final
+2024-01-22 20:03:31.191  INFO [] 21036 --- [Test worker] org.digitalcity.test.DataSourceTest      : Starting DataSourceTest using Java 17.0.4 with PID 21036 (started by marco in /Users/marco/Workspace/source/java/digital_city/digital_city_web)
+2024-01-22 20:03:31.192  INFO [] 21036 --- [Test worker] org.digitalcity.test.DataSourceTest      : No active profile set, falling back to 1 default profile: "default"
+2024-01-22 20:03:31.509  INFO [] 21036 --- [Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2024-01-22 20:03:31.510  INFO [] 21036 --- [Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-01-22 20:03:31.521  INFO [] 21036 --- [Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 4 ms. Found 0 Redis repository interfaces.
+2024-01-22 20:03:32.222  INFO [] 21036 --- [Test worker] org.digitalcity.test.DataSourceTest      : Started DataSourceTest in 1.208 seconds (process running for 1.615)
+2024-01-22 20:03:32.425  INFO [] 21036 --- [Test worker] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2024-01-22 20:03:39.220  INFO [] 21036 --- [SpringApplicationShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closing ...
+2024-01-22 20:03:39.221  INFO [] 21036 --- [SpringApplicationShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
+2024-01-22 20:30:56.396  INFO [] 23196 --- [background-preinit] o.h.validator.internal.util.Version      : HV000001: Hibernate Validator 8.0.0.Final
+2024-01-22 20:30:56.411  INFO [] 23196 --- [Test worker] org.digitalcity.test.DataSourceTest      : Starting DataSourceTest using Java 17.0.4 with PID 23196 (started by marco in /Users/marco/Workspace/source/java/digital_city/digital_city_web)
+2024-01-22 20:30:56.411  INFO [] 23196 --- [Test worker] org.digitalcity.test.DataSourceTest      : No active profile set, falling back to 1 default profile: "default"
+2024-01-22 20:30:56.720  INFO [] 23196 --- [Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2024-01-22 20:30:56.722  INFO [] 23196 --- [Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-01-22 20:30:56.738  INFO [] 23196 --- [Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 8 ms. Found 0 Redis repository interfaces.
+2024-01-22 20:30:57.484  INFO [] 23196 --- [Test worker] org.digitalcity.test.DataSourceTest      : Started DataSourceTest in 1.252 seconds (process running for 1.709)
+2024-01-22 20:30:57.702  INFO [] 23196 --- [SpringApplicationShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-0} closing ...
+2024-01-22 20:33:16.279  INFO [] 23225 --- [background-preinit] o.h.validator.internal.util.Version      : HV000001: Hibernate Validator 8.0.0.Final
+2024-01-22 20:33:16.294  INFO [] 23225 --- [Test worker] org.digitalcity.test.DataSourceTest      : Starting DataSourceTest using Java 17.0.4 with PID 23225 (started by marco in /Users/marco/Workspace/source/java/digital_city/digital_city_web)
+2024-01-22 20:33:16.294  INFO [] 23225 --- [Test worker] org.digitalcity.test.DataSourceTest      : No active profile set, falling back to 1 default profile: "default"
+2024-01-22 20:33:16.600  INFO [] 23225 --- [Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2024-01-22 20:33:16.601  INFO [] 23225 --- [Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-01-22 20:33:16.617  INFO [] 23225 --- [Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 8 ms. Found 0 Redis repository interfaces.
+2024-01-22 20:33:17.329  INFO [] 23225 --- [Test worker] org.digitalcity.test.DataSourceTest      : Started DataSourceTest in 1.213 seconds (process running for 1.665)
+2024-01-22 20:33:17.561  INFO [] 23225 --- [Test worker] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2024-01-22 20:33:25.165  INFO [] 23225 --- [SpringApplicationShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closing ...
+2024-01-22 20:33:25.167  INFO [] 23225 --- [SpringApplicationShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
+2024-01-22 20:35:27.571  INFO [] 23263 --- [background-preinit] o.h.validator.internal.util.Version      : HV000001: Hibernate Validator 8.0.0.Final
+2024-01-22 20:35:27.587  INFO [] 23263 --- [Test worker] org.digitalcity.test.DataSourceTest      : Starting DataSourceTest using Java 17.0.4 with PID 23263 (started by marco in /Users/marco/Workspace/source/java/digital_city/digital_city_web)
+2024-01-22 20:35:27.587  INFO [] 23263 --- [Test worker] org.digitalcity.test.DataSourceTest      : No active profile set, falling back to 1 default profile: "default"
+2024-01-22 20:35:27.885  INFO [] 23263 --- [Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2024-01-22 20:35:27.889  INFO [] 23263 --- [Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-01-22 20:35:27.904  INFO [] 23263 --- [Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 7 ms. Found 0 Redis repository interfaces.
+2024-01-22 20:35:28.640  INFO [] 23263 --- [Test worker] org.digitalcity.test.DataSourceTest      : Started DataSourceTest in 1.227 seconds (process running for 1.697)
+2024-01-22 20:35:28.886  INFO [] 23263 --- [Test worker] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2024-01-22 20:35:35.582  INFO [] 23263 --- [SpringApplicationShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closing ...
+2024-01-22 20:35:35.584  INFO [] 23263 --- [SpringApplicationShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
+2024-01-22 20:38:38.859  INFO [] 23278 --- [background-preinit] o.h.validator.internal.util.Version      : HV000001: Hibernate Validator 8.0.0.Final
+2024-01-22 20:38:38.873  INFO [] 23278 --- [Test worker] org.digitalcity.test.DataSourceTest      : Starting DataSourceTest using Java 17.0.4 with PID 23278 (started by marco in /Users/marco/Workspace/source/java/digital_city/digital_city_web)
+2024-01-22 20:38:38.874  INFO [] 23278 --- [Test worker] org.digitalcity.test.DataSourceTest      : No active profile set, falling back to 1 default profile: "default"
+2024-01-22 20:38:39.173  INFO [] 23278 --- [Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2024-01-22 20:38:39.175  INFO [] 23278 --- [Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-01-22 20:38:39.189  INFO [] 23278 --- [Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 7 ms. Found 0 Redis repository interfaces.
+2024-01-22 20:38:39.832  WARN [] 23278 --- [Test worker] c.b.m.core.metadata.TableInfoHelper      : This primary key of "id" is primitive !不建议如此请使用包装类 in Class: "org.digitalcity.dao.entity.Member"
+2024-01-22 20:38:39.900  INFO [] 23278 --- [Test worker] org.digitalcity.test.DataSourceTest      : Started DataSourceTest in 1.199 seconds (process running for 1.645)
+2024-01-22 20:38:40.095  INFO [] 23278 --- [SpringApplicationShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-0} closing ...
+2024-01-22 20:41:01.168  INFO [] 23327 --- [background-preinit] o.h.validator.internal.util.Version      : HV000001: Hibernate Validator 8.0.0.Final
+2024-01-22 20:41:01.182  INFO [] 23327 --- [Test worker] org.digitalcity.test.DataSourceTest      : Starting DataSourceTest using Java 17.0.4 with PID 23327 (started by marco in /Users/marco/Workspace/source/java/digital_city/digital_city_web)
+2024-01-22 20:41:01.183  INFO [] 23327 --- [Test worker] org.digitalcity.test.DataSourceTest      : No active profile set, falling back to 1 default profile: "default"
+2024-01-22 20:41:01.476  INFO [] 23327 --- [Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2024-01-22 20:41:01.478  INFO [] 23327 --- [Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-01-22 20:41:01.492  INFO [] 23327 --- [Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 7 ms. Found 0 Redis repository interfaces.
+2024-01-22 20:41:02.182  WARN [] 23327 --- [Test worker] c.b.m.core.metadata.TableInfoHelper      : This primary key of "id" is primitive !不建议如此请使用包装类 in Class: "org.digitalcity.dao.entity.Member"
+2024-01-22 20:41:02.252  INFO [] 23327 --- [Test worker] org.digitalcity.test.DataSourceTest      : Started DataSourceTest in 1.249 seconds (process running for 1.71)
+2024-01-22 20:41:02.482  INFO [] 23327 --- [Test worker] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2024-01-22 20:41:10.001  INFO [] 23327 --- [SpringApplicationShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closing ...
+2024-01-22 20:41:10.004  INFO [] 23327 --- [SpringApplicationShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
+2024-01-22 20:41:21.998  INFO [] 23337 --- [background-preinit] o.h.validator.internal.util.Version      : HV000001: Hibernate Validator 8.0.0.Final
+2024-01-22 20:41:22.013  INFO [] 23337 --- [Test worker] org.digitalcity.test.DataSourceTest      : Starting DataSourceTest using Java 17.0.4 with PID 23337 (started by marco in /Users/marco/Workspace/source/java/digital_city/digital_city_web)
+2024-01-22 20:41:22.014  INFO [] 23337 --- [Test worker] org.digitalcity.test.DataSourceTest      : No active profile set, falling back to 1 default profile: "default"
+2024-01-22 20:41:22.279  INFO [] 23337 --- [Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2024-01-22 20:41:22.280  INFO [] 23337 --- [Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-01-22 20:41:22.294  INFO [] 23337 --- [Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 7 ms. Found 0 Redis repository interfaces.
+2024-01-22 20:41:22.892  WARN [] 23337 --- [Test worker] c.b.m.core.metadata.TableInfoHelper      : This primary key of "id" is primitive !不建议如此请使用包装类 in Class: "org.digitalcity.dao.entity.Member"
+2024-01-22 20:41:22.962  INFO [] 23337 --- [Test worker] org.digitalcity.test.DataSourceTest      : Started DataSourceTest in 1.114 seconds (process running for 1.531)
+2024-01-22 20:41:23.172  INFO [] 23337 --- [Test worker] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2024-01-22 20:41:29.709  INFO [] 23337 --- [SpringApplicationShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closing ...
+2024-01-22 20:41:29.711  INFO [] 23337 --- [SpringApplicationShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
+2024-01-22 20:43:16.107  INFO [] 23344 --- [background-preinit] o.h.validator.internal.util.Version      : HV000001: Hibernate Validator 8.0.0.Final
+2024-01-22 20:43:16.123  INFO [] 23344 --- [Test worker] org.digitalcity.test.DataSourceTest      : Starting DataSourceTest using Java 17.0.4 with PID 23344 (started by marco in /Users/marco/Workspace/source/java/digital_city/digital_city_web)
+2024-01-22 20:43:16.124  INFO [] 23344 --- [Test worker] org.digitalcity.test.DataSourceTest      : No active profile set, falling back to 1 default profile: "default"
+2024-01-22 20:43:16.424  INFO [] 23344 --- [Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2024-01-22 20:43:16.425  INFO [] 23344 --- [Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-01-22 20:43:16.441  INFO [] 23344 --- [Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 8 ms. Found 0 Redis repository interfaces.
+2024-01-22 20:43:17.160  WARN [] 23344 --- [Test worker] c.b.m.core.metadata.TableInfoHelper      : This primary key of "id" is primitive !不建议如此请使用包装类 in Class: "org.digitalcity.dao.entity.Member"
+2024-01-22 20:43:17.228  INFO [] 23344 --- [Test worker] org.digitalcity.test.DataSourceTest      : Started DataSourceTest in 1.286 seconds (process running for 1.73)
+2024-01-22 20:43:17.460  INFO [] 23344 --- [Test worker] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2024-01-22 20:43:22.040  INFO [] 23344 --- [SpringApplicationShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closing ...
+2024-01-22 20:43:22.043  INFO [] 23344 --- [SpringApplicationShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
+2024-01-22 20:45:18.485  INFO [] 23353 --- [background-preinit] o.h.validator.internal.util.Version      : HV000001: Hibernate Validator 8.0.0.Final
+2024-01-22 20:45:18.502  INFO [] 23353 --- [Test worker] org.digitalcity.test.DataSourceTest      : Starting DataSourceTest using Java 17.0.4 with PID 23353 (started by marco in /Users/marco/Workspace/source/java/digital_city/digital_city_web)
+2024-01-22 20:45:18.503  INFO [] 23353 --- [Test worker] org.digitalcity.test.DataSourceTest      : No active profile set, falling back to 1 default profile: "default"
+2024-01-22 20:45:18.804  INFO [] 23353 --- [Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2024-01-22 20:45:18.806  INFO [] 23353 --- [Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-01-22 20:45:18.822  INFO [] 23353 --- [Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 7 ms. Found 0 Redis repository interfaces.
+2024-01-22 20:45:19.477  WARN [] 23353 --- [Test worker] c.b.m.core.metadata.TableInfoHelper      : This primary key of "id" is primitive !不建议如此请使用包装类 in Class: "org.digitalcity.dao.entity.Member"
+2024-01-22 20:45:19.548  INFO [] 23353 --- [Test worker] org.digitalcity.test.DataSourceTest      : Started DataSourceTest in 1.229 seconds (process running for 1.68)
+2024-01-22 20:45:19.785  INFO [] 23353 --- [Test worker] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2024-01-22 20:45:29.547  INFO [] 23353 --- [SpringApplicationShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closing ...
+2024-01-22 20:45:29.549  INFO [] 23353 --- [SpringApplicationShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
+2024-01-22 20:50:17.796  INFO [] 23395 --- [background-preinit] o.h.validator.internal.util.Version      : HV000001: Hibernate Validator 8.0.0.Final
+2024-01-22 20:50:17.812  INFO [] 23395 --- [Test worker] org.digitalcity.test.DataSourceTest      : Starting DataSourceTest using Java 17.0.4 with PID 23395 (started by marco in /Users/marco/Workspace/source/java/digital_city/digital_city_web)
+2024-01-22 20:50:17.813  INFO [] 23395 --- [Test worker] org.digitalcity.test.DataSourceTest      : No active profile set, falling back to 1 default profile: "default"
+2024-01-22 20:50:18.119  INFO [] 23395 --- [Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2024-01-22 20:50:18.121  INFO [] 23395 --- [Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-01-22 20:50:18.136  INFO [] 23395 --- [Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 7 ms. Found 0 Redis repository interfaces.
+2024-01-22 20:50:18.832  WARN [] 23395 --- [Test worker] c.b.m.core.metadata.TableInfoHelper      : This primary key of "id" is primitive !不建议如此请使用包装类 in Class: "org.digitalcity.dao.entity.Member"
+2024-01-22 20:50:18.904  INFO [] 23395 --- [Test worker] org.digitalcity.test.DataSourceTest      : Started DataSourceTest in 1.293 seconds (process running for 1.766)
+2024-01-22 20:50:19.101  INFO [] 23395 --- [Test worker] o.d.c.handler.CustomMetaObjectHandler    : 进行数据填充
+2024-01-22 20:50:19.148  INFO [] 23395 --- [Test worker] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2024-01-22 20:50:26.017  INFO [] 23395 --- [SpringApplicationShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closing ...
+2024-01-22 20:50:26.020  INFO [] 23395 --- [SpringApplicationShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
+2024-01-22 20:57:56.809  INFO [] 23449 --- [background-preinit] o.h.validator.internal.util.Version      : HV000001: Hibernate Validator 8.0.0.Final
+2024-01-22 20:57:56.824  INFO [] 23449 --- [Test worker] org.digitalcity.test.DataSourceTest      : Starting DataSourceTest using Java 17.0.4 with PID 23449 (started by marco in /Users/marco/Workspace/source/java/digital_city/digital_city_web)
+2024-01-22 20:57:56.825  INFO [] 23449 --- [Test worker] org.digitalcity.test.DataSourceTest      : No active profile set, falling back to 1 default profile: "default"
+2024-01-22 20:57:57.124  INFO [] 23449 --- [Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2024-01-22 20:57:57.125  INFO [] 23449 --- [Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-01-22 20:57:57.144  INFO [] 23449 --- [Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 9 ms. Found 0 Redis repository interfaces.
+2024-01-22 20:57:57.862  WARN [] 23449 --- [Test worker] c.b.m.core.metadata.TableInfoHelper      : This primary key of "id" is primitive !不建议如此请使用包装类 in Class: "org.digitalcity.dao.entity.Member"
+2024-01-22 20:57:57.938  INFO [] 23449 --- [Test worker] org.digitalcity.test.DataSourceTest      : Started DataSourceTest in 1.297 seconds (process running for 1.752)
+2024-01-22 20:57:58.208  INFO [] 23449 --- [Test worker] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2024-01-22 20:58:05.394  INFO [] 23449 --- [SpringApplicationShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closing ...
+2024-01-22 20:58:05.396  INFO [] 23449 --- [SpringApplicationShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed

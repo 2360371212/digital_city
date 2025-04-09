@@ -1,0 +1,72 @@
+spring:
+  application:
+    name: digital_city
+server:
+  port: 8080
+
+--- # 自定义jwt配置
+jacob:
+  security:
+    config:
+      jwt:
+        signature: digital_city
+        issuer: jacob_Xu
+        secret: jacobsfacntasticnetd
+        expire: 1000000
+      password:
+        encrypt:
+          salt: digital_city
+          repeat: 2
+--- # 邮件服务
+spring:
+  mail:
+    host: smtp.qq.com
+    username: 2360371212@qq.com
+    password: bsovbukopvlsdihc
+    properties:
+      mail.smtp.auth: true
+      mail.smtp.starttls.enable: true
+      mail.smtp.starttls.required: true
+  datasource:
+    type: com.alibaba.druid.pool.DruidDataSource
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://122.51.67.250:3306/digital_city
+    username: jacob
+    password: 123456
+    druid: # 定义数据库连接池所需要的相关配置项
+      initial-size: 5 # 初始化连接池大小
+      min-idle: 10 # 最小维持的连接池大小
+      max-active: 50 # 最大可提供的连接数量
+      max-wait: 60000 # 最长等待时间
+      time-between-eviction-runs-millis: 6000
+      min-evictable-idle-time-millis: 30000
+      validation-query: SELECT 1 FROM dual
+      test-while-idle: true
+      test-on-borrow: false
+      test-on-return: false
+      pool-prepared-statements: false
+      max-pool-prepared-statement-per-connection-size: 20
+
+--- # redis配置
+spring:
+  data:
+    redis:
+      host: 122.51.67.250
+      port: 6379
+      password: 123456
+      connect-timeout: 2000ms
+      database: 0
+      lettuce:
+        pool:
+          max-active: 100
+          max-idle: 29
+          min-idle: 10
+          max-wait: 1000
+          time-between-eviction-runs: 2000
+  cache:
+    type: redis
+    cache-names:
+      --digital:city:service
+    redis:
+      time-to-live: 86400000
+      cache-null-values: true

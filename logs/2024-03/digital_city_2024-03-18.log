@@ -1,0 +1,660 @@
+2024-03-18 20:15:54.523  INFO [32m[][0;39m 21256 --- [background-preinit] o.h.validator.internal.util.Version      : HV000001: Hibernate Validator 8.0.0.Final
+2024-03-18 20:15:54.543  INFO [32m[][0;39m 21256 --- [restartedMain] org.digitalcity.ApplicationStarter       : Starting ApplicationStarter using Java 17.0.4 with PID 21256 (/Users/marco/Workspace/source/java/digital_city/digital_city_web/build/classes/java/main started by marco in /Users/marco/Workspace/source/java/digital_city)
+2024-03-18 20:15:54.544  INFO [32m[][0;39m 21256 --- [restartedMain] org.digitalcity.ApplicationStarter       : No active profile set, falling back to 1 default profile: "default"
+2024-03-18 20:15:54.569  INFO [32m[][0;39m 21256 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-03-18 20:15:54.569  INFO [32m[][0;39m 21256 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-03-18 20:15:54.932  INFO [32m[][0;39m 21256 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2024-03-18 20:15:54.934  INFO [32m[][0;39m 21256 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-03-18 20:15:54.953  INFO [32m[][0;39m 21256 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 11 ms. Found 0 Redis repository interfaces.
+2024-03-18 20:15:55.169  INFO [32m[][0;39m 21256 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.boot.autoconfigure.jdbc.DataSourceTransactionManagerAutoConfiguration$JdbcTransactionManagerConfiguration' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceTransactionManagerAutoConfiguration$JdbcTransactionManagerConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-03-18 20:15:55.171  INFO [32m[][0;39m 21256 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration$Generic' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration$Generic] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-03-18 20:15:55.184  INFO [32m[][0;39m 21256 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'spring.datasource-org.springframework.boot.autoconfigure.jdbc.DataSourceProperties' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-03-18 20:15:55.200  INFO [32m[][0;39m 21256 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'dataSource' of type [com.alibaba.druid.pool.DruidDataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-03-18 20:15:55.224  INFO [32m[][0;39m 21256 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.boot.autoconfigure.transaction.TransactionAutoConfiguration' of type [org.springframework.boot.autoconfigure.transaction.TransactionAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-03-18 20:15:55.227  INFO [32m[][0;39m 21256 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'spring.transaction-org.springframework.boot.autoconfigure.transaction.TransactionProperties' of type [org.springframework.boot.autoconfigure.transaction.TransactionProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-03-18 20:15:55.228  INFO [32m[][0;39m 21256 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'platformTransactionManagerCustomizers' of type [org.springframework.boot.autoconfigure.transaction.TransactionManagerCustomizers] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-03-18 20:15:55.230  INFO [32m[][0;39m 21256 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'transactionManager' of type [org.springframework.jdbc.support.JdbcTransactionManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-03-18 20:15:55.231  INFO [32m[][0;39m 21256 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'transactionConfig' of type [org.digitalcity.config.TransactionConfig$$SpringCGLIB$$0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-03-18 20:15:55.235  INFO [32m[][0;39m 21256 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'txAdvice' of type [org.springframework.transaction.interceptor.TransactionInterceptor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-03-18 20:15:55.235  INFO [32m[][0;39m 21256 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'advisor' of type [org.springframework.aop.support.DefaultPointcutAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-03-18 20:15:55.440  INFO [32m[][0;39m 21256 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2024-03-18 20:15:55.446  INFO [32m[][0;39m 21256 --- [restartedMain] o.a.coyote.http11.Http11NioProtocol      : Initializing ProtocolHandler ["http-nio-8080"]
+2024-03-18 20:15:55.447  INFO [32m[][0;39m 21256 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-03-18 20:15:55.447  INFO [32m[][0;39m 21256 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.5]
+2024-03-18 20:15:55.477  INFO [32m[][0;39m 21256 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-03-18 20:15:55.477  INFO [32m[][0;39m 21256 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 907 ms
+2024-03-18 20:15:55.697  WARN [33m[][0;39m 21256 --- [restartedMain] c.b.m.core.metadata.TableInfoHelper      : This primary key of "id" is primitive !不建议如此请使用包装类 in Class: "org.digitalcity.dao.entity.Attraction"
+2024-03-18 20:15:55.762  WARN [33m[][0;39m 21256 --- [restartedMain] c.b.m.core.metadata.TableInfoHelper      : This primary key of "id" is primitive !不建议如此请使用包装类 in Class: "org.digitalcity.dao.entity.Member"
+2024-03-18 20:15:55.958  WARN [33m[][0;39m 21256 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'requestMappingHandlerMapping' defined in class path resource [org/springframework/boot/autoconfigure/web/servlet/WebMvcAutoConfiguration$EnableWebMvcConfiguration.class]: Ambiguous mapping. Cannot map 'attractionAction' method 
+org.digitalcity.action.AttractionAction#getByName(String)
+to {GET [/digital_city/attraction/get/]}: There is already 'attractionAction' bean method
+org.digitalcity.action.AttractionAction#get(int) mapped.
+2024-03-18 20:15:55.964  INFO [32m[][0;39m 21256 --- [restartedMain] com.alibaba.druid.pool.DruidDataSource   : {dataSource-0} closing ...
+2024-03-18 20:15:55.966  INFO [32m[][0;39m 21256 --- [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2024-03-18 20:15:55.981  INFO [32m[][0;39m 21256 --- [restartedMain] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2024-03-18 20:15:55.989 ERROR [31m[][0;39m 21256 --- [restartedMain] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'requestMappingHandlerMapping' defined in class path resource [org/springframework/boot/autoconfigure/web/servlet/WebMvcAutoConfiguration$EnableWebMvcConfiguration.class]: Ambiguous mapping. Cannot map 'attractionAction' method 
+org.digitalcity.action.AttractionAction#getByName(String)
+to {GET [/digital_city/attraction/get/]}: There is already 'attractionAction' bean method
+org.digitalcity.action.AttractionAction#get(int) mapped.
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1751)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:599)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:521)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:326)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:324)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:961)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:915)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:584)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:730)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:432)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:308)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1302)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1291)
+	at org.digitalcity.ApplicationStarter.main(ApplicationStarter.java:19)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: java.lang.IllegalStateException: Ambiguous mapping. Cannot map 'attractionAction' method 
+org.digitalcity.action.AttractionAction#getByName(String)
+to {GET [/digital_city/attraction/get/]}: There is already 'attractionAction' bean method
+org.digitalcity.action.AttractionAction#get(int) mapped.
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.validateMethodMapping(AbstractHandlerMethodMapping.java:667)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:633)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.registerHandlerMethod(AbstractHandlerMethodMapping.java:331)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.registerHandlerMethod(RequestMappingHandlerMapping.java:438)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.registerHandlerMethod(RequestMappingHandlerMapping.java:76)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.lambda$detectHandlerMethods$2(AbstractHandlerMethodMapping.java:298)
+	at java.base/java.util.LinkedHashMap.forEach(LinkedHashMap.java:721)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.detectHandlerMethods(AbstractHandlerMethodMapping.java:296)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.processCandidateBean(AbstractHandlerMethodMapping.java:265)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.initHandlerMethods(AbstractHandlerMethodMapping.java:224)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.afterPropertiesSet(AbstractHandlerMethodMapping.java:212)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.afterPropertiesSet(RequestMappingHandlerMapping.java:225)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1797)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1747)
+	... 21 common frames omitted
+
+2024-03-18 20:16:12.721  INFO [32m[][0;39m 21259 --- [background-preinit] o.h.validator.internal.util.Version      : HV000001: Hibernate Validator 8.0.0.Final
+2024-03-18 20:16:12.737  INFO [32m[][0;39m 21259 --- [restartedMain] org.digitalcity.ApplicationStarter       : Starting ApplicationStarter using Java 17.0.4 with PID 21259 (/Users/marco/Workspace/source/java/digital_city/digital_city_web/build/classes/java/main started by marco in /Users/marco/Workspace/source/java/digital_city)
+2024-03-18 20:16:12.741  INFO [32m[][0;39m 21259 --- [restartedMain] org.digitalcity.ApplicationStarter       : No active profile set, falling back to 1 default profile: "default"
+2024-03-18 20:16:12.762  INFO [32m[][0;39m 21259 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-03-18 20:16:12.762  INFO [32m[][0;39m 21259 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-03-18 20:16:13.085  INFO [32m[][0;39m 21259 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2024-03-18 20:16:13.086  INFO [32m[][0;39m 21259 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-03-18 20:16:13.102  INFO [32m[][0;39m 21259 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 9 ms. Found 0 Redis repository interfaces.
+2024-03-18 20:16:13.285  INFO [32m[][0;39m 21259 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.boot.autoconfigure.jdbc.DataSourceTransactionManagerAutoConfiguration$JdbcTransactionManagerConfiguration' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceTransactionManagerAutoConfiguration$JdbcTransactionManagerConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-03-18 20:16:13.287  INFO [32m[][0;39m 21259 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration$Generic' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration$Generic] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-03-18 20:16:13.300  INFO [32m[][0;39m 21259 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'spring.datasource-org.springframework.boot.autoconfigure.jdbc.DataSourceProperties' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-03-18 20:16:13.320  INFO [32m[][0;39m 21259 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'dataSource' of type [com.alibaba.druid.pool.DruidDataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-03-18 20:16:13.347  INFO [32m[][0;39m 21259 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.boot.autoconfigure.transaction.TransactionAutoConfiguration' of type [org.springframework.boot.autoconfigure.transaction.TransactionAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-03-18 20:16:13.350  INFO [32m[][0;39m 21259 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'spring.transaction-org.springframework.boot.autoconfigure.transaction.TransactionProperties' of type [org.springframework.boot.autoconfigure.transaction.TransactionProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-03-18 20:16:13.351  INFO [32m[][0;39m 21259 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'platformTransactionManagerCustomizers' of type [org.springframework.boot.autoconfigure.transaction.TransactionManagerCustomizers] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-03-18 20:16:13.353  INFO [32m[][0;39m 21259 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'transactionManager' of type [org.springframework.jdbc.support.JdbcTransactionManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-03-18 20:16:13.355  INFO [32m[][0;39m 21259 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'transactionConfig' of type [org.digitalcity.config.TransactionConfig$$SpringCGLIB$$0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-03-18 20:16:13.359  INFO [32m[][0;39m 21259 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'txAdvice' of type [org.springframework.transaction.interceptor.TransactionInterceptor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-03-18 20:16:13.359  INFO [32m[][0;39m 21259 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'advisor' of type [org.springframework.aop.support.DefaultPointcutAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-03-18 20:16:13.579  INFO [32m[][0;39m 21259 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2024-03-18 20:16:13.585  INFO [32m[][0;39m 21259 --- [restartedMain] o.a.coyote.http11.Http11NioProtocol      : Initializing ProtocolHandler ["http-nio-8080"]
+2024-03-18 20:16:13.585  INFO [32m[][0;39m 21259 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-03-18 20:16:13.585  INFO [32m[][0;39m 21259 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.5]
+2024-03-18 20:16:13.615  INFO [32m[][0;39m 21259 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-03-18 20:16:13.615  INFO [32m[][0;39m 21259 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 853 ms
+2024-03-18 20:16:13.862  WARN [33m[][0;39m 21259 --- [restartedMain] c.b.m.core.metadata.TableInfoHelper      : This primary key of "id" is primitive !不建议如此请使用包装类 in Class: "org.digitalcity.dao.entity.Attraction"
+2024-03-18 20:16:13.926  WARN [33m[][0;39m 21259 --- [restartedMain] c.b.m.core.metadata.TableInfoHelper      : This primary key of "id" is primitive !不建议如此请使用包装类 in Class: "org.digitalcity.dao.entity.Member"
+2024-03-18 20:16:14.133  WARN [33m[][0;39m 21259 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'requestMappingHandlerMapping' defined in class path resource [org/springframework/boot/autoconfigure/web/servlet/WebMvcAutoConfiguration$EnableWebMvcConfiguration.class]: Ambiguous mapping. Cannot map 'attractionAction' method 
+org.digitalcity.action.AttractionAction#getByName(String)
+to {GET [/digital_city/attraction/get/]}: There is already 'attractionAction' bean method
+org.digitalcity.action.AttractionAction#get(int) mapped.
+2024-03-18 20:16:14.140  INFO [32m[][0;39m 21259 --- [restartedMain] com.alibaba.druid.pool.DruidDataSource   : {dataSource-0} closing ...
+2024-03-18 20:16:14.142  INFO [32m[][0;39m 21259 --- [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2024-03-18 20:16:14.158  INFO [32m[][0;39m 21259 --- [restartedMain] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2024-03-18 20:16:14.166 ERROR [31m[][0;39m 21259 --- [restartedMain] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'requestMappingHandlerMapping' defined in class path resource [org/springframework/boot/autoconfigure/web/servlet/WebMvcAutoConfiguration$EnableWebMvcConfiguration.class]: Ambiguous mapping. Cannot map 'attractionAction' method 
+org.digitalcity.action.AttractionAction#getByName(String)
+to {GET [/digital_city/attraction/get/]}: There is already 'attractionAction' bean method
+org.digitalcity.action.AttractionAction#get(int) mapped.
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1751)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:599)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:521)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:326)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:324)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:961)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:915)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:584)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:730)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:432)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:308)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1302)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1291)
+	at org.digitalcity.ApplicationStarter.main(ApplicationStarter.java:19)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: java.lang.IllegalStateException: Ambiguous mapping. Cannot map 'attractionAction' method 
+org.digitalcity.action.AttractionAction#getByName(String)
+to {GET [/digital_city/attraction/get/]}: There is already 'attractionAction' bean method
+org.digitalcity.action.AttractionAction#get(int) mapped.
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.validateMethodMapping(AbstractHandlerMethodMapping.java:667)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:633)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.registerHandlerMethod(AbstractHandlerMethodMapping.java:331)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.registerHandlerMethod(RequestMappingHandlerMapping.java:438)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.registerHandlerMethod(RequestMappingHandlerMapping.java:76)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.lambda$detectHandlerMethods$2(AbstractHandlerMethodMapping.java:298)
+	at java.base/java.util.LinkedHashMap.forEach(LinkedHashMap.java:721)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.detectHandlerMethods(AbstractHandlerMethodMapping.java:296)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.processCandidateBean(AbstractHandlerMethodMapping.java:265)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.initHandlerMethods(AbstractHandlerMethodMapping.java:224)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.afterPropertiesSet(AbstractHandlerMethodMapping.java:212)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.afterPropertiesSet(RequestMappingHandlerMapping.java:225)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1797)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1747)
+	... 21 common frames omitted
+
+2024-03-18 20:17:23.274  INFO [32m[][0;39m 24296 --- [background-preinit] o.h.validator.internal.util.Version      : HV000001: Hibernate Validator 8.0.0.Final
+2024-03-18 20:17:23.294  INFO [32m[][0;39m 24296 --- [restartedMain] org.digitalcity.ApplicationStarter       : Starting ApplicationStarter using Java 17.0.4 with PID 24296 (/Users/marco/Workspace/source/java/digital_city/digital_city_web/build/classes/java/main started by marco in /Users/marco/Workspace/source/java/digital_city)
+2024-03-18 20:17:23.295  INFO [32m[][0;39m 24296 --- [restartedMain] org.digitalcity.ApplicationStarter       : No active profile set, falling back to 1 default profile: "default"
+2024-03-18 20:17:23.321  INFO [32m[][0;39m 24296 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-03-18 20:17:23.321  INFO [32m[][0;39m 24296 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-03-18 20:17:23.699  INFO [32m[][0;39m 24296 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2024-03-18 20:17:23.700  INFO [32m[][0;39m 24296 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-03-18 20:17:23.720  INFO [32m[][0;39m 24296 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 11 ms. Found 0 Redis repository interfaces.
+2024-03-18 20:17:23.945  INFO [32m[][0;39m 24296 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.boot.autoconfigure.jdbc.DataSourceTransactionManagerAutoConfiguration$JdbcTransactionManagerConfiguration' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceTransactionManagerAutoConfiguration$JdbcTransactionManagerConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-03-18 20:17:23.947  INFO [32m[][0;39m 24296 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration$Generic' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration$Generic] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-03-18 20:17:23.959  INFO [32m[][0;39m 24296 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'spring.datasource-org.springframework.boot.autoconfigure.jdbc.DataSourceProperties' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-03-18 20:17:23.976  INFO [32m[][0;39m 24296 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'dataSource' of type [com.alibaba.druid.pool.DruidDataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-03-18 20:17:23.998  INFO [32m[][0;39m 24296 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.boot.autoconfigure.transaction.TransactionAutoConfiguration' of type [org.springframework.boot.autoconfigure.transaction.TransactionAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-03-18 20:17:24.001  INFO [32m[][0;39m 24296 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'spring.transaction-org.springframework.boot.autoconfigure.transaction.TransactionProperties' of type [org.springframework.boot.autoconfigure.transaction.TransactionProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-03-18 20:17:24.001  INFO [32m[][0;39m 24296 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'platformTransactionManagerCustomizers' of type [org.springframework.boot.autoconfigure.transaction.TransactionManagerCustomizers] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-03-18 20:17:24.003  INFO [32m[][0;39m 24296 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'transactionManager' of type [org.springframework.jdbc.support.JdbcTransactionManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-03-18 20:17:24.004  INFO [32m[][0;39m 24296 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'transactionConfig' of type [org.digitalcity.config.TransactionConfig$$SpringCGLIB$$0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-03-18 20:17:24.008  INFO [32m[][0;39m 24296 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'txAdvice' of type [org.springframework.transaction.interceptor.TransactionInterceptor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-03-18 20:17:24.008  INFO [32m[][0;39m 24296 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'advisor' of type [org.springframework.aop.support.DefaultPointcutAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-03-18 20:17:24.203  INFO [32m[][0;39m 24296 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2024-03-18 20:17:24.209  INFO [32m[][0;39m 24296 --- [restartedMain] o.a.coyote.http11.Http11NioProtocol      : Initializing ProtocolHandler ["http-nio-8080"]
+2024-03-18 20:17:24.210  INFO [32m[][0;39m 24296 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-03-18 20:17:24.210  INFO [32m[][0;39m 24296 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.5]
+2024-03-18 20:17:24.240  INFO [32m[][0;39m 24296 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-03-18 20:17:24.241  INFO [32m[][0;39m 24296 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 920 ms
+2024-03-18 20:17:24.470  WARN [33m[][0;39m 24296 --- [restartedMain] c.b.m.core.metadata.TableInfoHelper      : This primary key of "id" is primitive !不建议如此请使用包装类 in Class: "org.digitalcity.dao.entity.Attraction"
+2024-03-18 20:17:24.533  WARN [33m[][0;39m 24296 --- [restartedMain] c.b.m.core.metadata.TableInfoHelper      : This primary key of "id" is primitive !不建议如此请使用包装类 in Class: "org.digitalcity.dao.entity.Member"
+2024-03-18 20:17:24.871  INFO [32m[][0;39m 24296 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-03-18 20:17:24.894  INFO [32m[][0;39m 24296 --- [restartedMain] o.a.coyote.http11.Http11NioProtocol      : Starting ProtocolHandler ["http-nio-8080"]
+2024-03-18 20:17:24.902  INFO [32m[][0;39m 24296 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2024-03-18 20:17:24.908  INFO [32m[][0;39m 24296 --- [restartedMain] org.digitalcity.ApplicationStarter       : Started ApplicationStarter in 1.856 seconds (process running for 2.101)
+2024-03-18 20:18:09.112  INFO [32m[][0;39m 24296 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-03-18 20:18:09.112  INFO [32m[][0;39m 24296 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-03-18 20:18:09.113  INFO [32m[][0;39m 24296 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-03-18 20:18:09.508  INFO [32m[][0;39m 24296 --- [http-nio-8080-exec-2] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2024-03-18 20:19:25.386  INFO [32m[][0;39m 24296 --- [SpringApplicationShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closing ...
+2024-03-18 20:19:25.389  INFO [32m[][0;39m 24296 --- [SpringApplicationShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
+2024-03-18 20:19:27.291  INFO [32m[][0;39m 24306 --- [background-preinit] o.h.validator.internal.util.Version      : HV000001: Hibernate Validator 8.0.0.Final
+2024-03-18 20:19:27.309  INFO [32m[][0;39m 24306 --- [restartedMain] org.digitalcity.ApplicationStarter       : Starting ApplicationStarter using Java 17.0.4 with PID 24306 (/Users/marco/Workspace/source/java/digital_city/digital_city_web/build/classes/java/main started by marco in /Users/marco/Workspace/source/java/digital_city)
+2024-03-18 20:19:27.309  INFO [32m[][0;39m 24306 --- [restartedMain] org.digitalcity.ApplicationStarter       : No active profile set, falling back to 1 default profile: "default"
+2024-03-18 20:19:27.333  INFO [32m[][0;39m 24306 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-03-18 20:19:27.333  INFO [32m[][0;39m 24306 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-03-18 20:19:27.689  INFO [32m[][0;39m 24306 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2024-03-18 20:19:27.691  INFO [32m[][0;39m 24306 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-03-18 20:19:27.710  INFO [32m[][0;39m 24306 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 10 ms. Found 0 Redis repository interfaces.
+2024-03-18 20:19:27.930  INFO [32m[][0;39m 24306 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.boot.autoconfigure.jdbc.DataSourceTransactionManagerAutoConfiguration$JdbcTransactionManagerConfiguration' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceTransactionManagerAutoConfiguration$JdbcTransactionManagerConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-03-18 20:19:27.932  INFO [32m[][0;39m 24306 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration$Generic' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration$Generic] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-03-18 20:19:27.947  INFO [32m[][0;39m 24306 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'spring.datasource-org.springframework.boot.autoconfigure.jdbc.DataSourceProperties' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-03-18 20:19:27.968  INFO [32m[][0;39m 24306 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'dataSource' of type [com.alibaba.druid.pool.DruidDataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-03-18 20:19:27.992  INFO [32m[][0;39m 24306 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.boot.autoconfigure.transaction.TransactionAutoConfiguration' of type [org.springframework.boot.autoconfigure.transaction.TransactionAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-03-18 20:19:27.996  INFO [32m[][0;39m 24306 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'spring.transaction-org.springframework.boot.autoconfigure.transaction.TransactionProperties' of type [org.springframework.boot.autoconfigure.transaction.TransactionProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-03-18 20:19:27.996  INFO [32m[][0;39m 24306 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'platformTransactionManagerCustomizers' of type [org.springframework.boot.autoconfigure.transaction.TransactionManagerCustomizers] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-03-18 20:19:27.998  INFO [32m[][0;39m 24306 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'transactionManager' of type [org.springframework.jdbc.support.JdbcTransactionManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-03-18 20:19:28.000  INFO [32m[][0;39m 24306 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'transactionConfig' of type [org.digitalcity.config.TransactionConfig$$SpringCGLIB$$0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-03-18 20:19:28.004  INFO [32m[][0;39m 24306 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'txAdvice' of type [org.springframework.transaction.interceptor.TransactionInterceptor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-03-18 20:19:28.004  INFO [32m[][0;39m 24306 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'advisor' of type [org.springframework.aop.support.DefaultPointcutAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-03-18 20:19:28.275  INFO [32m[][0;39m 24306 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2024-03-18 20:19:28.281  INFO [32m[][0;39m 24306 --- [restartedMain] o.a.coyote.http11.Http11NioProtocol      : Initializing ProtocolHandler ["http-nio-8080"]
+2024-03-18 20:19:28.282  INFO [32m[][0;39m 24306 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-03-18 20:19:28.282  INFO [32m[][0;39m 24306 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.5]
+2024-03-18 20:19:28.316  INFO [32m[][0;39m 24306 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-03-18 20:19:28.316  INFO [32m[][0;39m 24306 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 983 ms
+2024-03-18 20:19:28.575  WARN [33m[][0;39m 24306 --- [restartedMain] c.b.m.core.metadata.TableInfoHelper      : This primary key of "id" is primitive !不建议如此请使用包装类 in Class: "org.digitalcity.dao.entity.Attraction"
+2024-03-18 20:19:28.646  WARN [33m[][0;39m 24306 --- [restartedMain] c.b.m.core.metadata.TableInfoHelper      : This primary key of "id" is primitive !不建议如此请使用包装类 in Class: "org.digitalcity.dao.entity.Member"
+2024-03-18 20:19:29.011  INFO [32m[][0;39m 24306 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-03-18 20:19:29.034  INFO [32m[][0;39m 24306 --- [restartedMain] o.a.coyote.http11.Http11NioProtocol      : Starting ProtocolHandler ["http-nio-8080"]
+2024-03-18 20:19:29.042  INFO [32m[][0;39m 24306 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2024-03-18 20:19:29.048  INFO [32m[][0;39m 24306 --- [restartedMain] org.digitalcity.ApplicationStarter       : Started ApplicationStarter in 1.979 seconds (process running for 2.404)
+2024-03-18 20:19:33.636  INFO [32m[][0;39m 24306 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-03-18 20:19:33.637  INFO [32m[][0;39m 24306 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-03-18 20:19:33.637  INFO [32m[][0;39m 24306 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2024-03-18 20:20:07.080  INFO [32m[][0;39m 24306 --- [SpringApplicationShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-0} closing ...
+2024-03-18 20:20:08.739  INFO [32m[][0;39m 24327 --- [background-preinit] o.h.validator.internal.util.Version      : HV000001: Hibernate Validator 8.0.0.Final
+2024-03-18 20:20:08.757  INFO [32m[][0;39m 24327 --- [restartedMain] org.digitalcity.ApplicationStarter       : Starting ApplicationStarter using Java 17.0.4 with PID 24327 (/Users/marco/Workspace/source/java/digital_city/digital_city_web/build/classes/java/main started by marco in /Users/marco/Workspace/source/java/digital_city)
+2024-03-18 20:20:08.757  INFO [32m[][0;39m 24327 --- [restartedMain] org.digitalcity.ApplicationStarter       : No active profile set, falling back to 1 default profile: "default"
+2024-03-18 20:20:08.782  INFO [32m[][0;39m 24327 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-03-18 20:20:08.782  INFO [32m[][0;39m 24327 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-03-18 20:20:09.135  INFO [32m[][0;39m 24327 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2024-03-18 20:20:09.136  INFO [32m[][0;39m 24327 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-03-18 20:20:09.153  INFO [32m[][0;39m 24327 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 9 ms. Found 0 Redis repository interfaces.
+2024-03-18 20:20:09.358  INFO [32m[][0;39m 24327 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.boot.autoconfigure.jdbc.DataSourceTransactionManagerAutoConfiguration$JdbcTransactionManagerConfiguration' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceTransactionManagerAutoConfiguration$JdbcTransactionManagerConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-03-18 20:20:09.360  INFO [32m[][0;39m 24327 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration$Generic' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration$Generic] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-03-18 20:20:09.373  INFO [32m[][0;39m 24327 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'spring.datasource-org.springframework.boot.autoconfigure.jdbc.DataSourceProperties' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-03-18 20:20:09.392  INFO [32m[][0;39m 24327 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'dataSource' of type [com.alibaba.druid.pool.DruidDataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-03-18 20:20:09.416  INFO [32m[][0;39m 24327 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.boot.autoconfigure.transaction.TransactionAutoConfiguration' of type [org.springframework.boot.autoconfigure.transaction.TransactionAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-03-18 20:20:09.419  INFO [32m[][0;39m 24327 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'spring.transaction-org.springframework.boot.autoconfigure.transaction.TransactionProperties' of type [org.springframework.boot.autoconfigure.transaction.TransactionProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-03-18 20:20:09.420  INFO [32m[][0;39m 24327 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'platformTransactionManagerCustomizers' of type [org.springframework.boot.autoconfigure.transaction.TransactionManagerCustomizers] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-03-18 20:20:09.422  INFO [32m[][0;39m 24327 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'transactionManager' of type [org.springframework.jdbc.support.JdbcTransactionManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-03-18 20:20:09.424  INFO [32m[][0;39m 24327 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'transactionConfig' of type [org.digitalcity.config.TransactionConfig$$SpringCGLIB$$0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-03-18 20:20:09.427  INFO [32m[][0;39m 24327 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'txAdvice' of type [org.springframework.transaction.interceptor.TransactionInterceptor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-03-18 20:20:09.428  INFO [32m[][0;39m 24327 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'advisor' of type [org.springframework.aop.support.DefaultPointcutAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-03-18 20:20:09.654  INFO [32m[][0;39m 24327 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2024-03-18 20:20:09.660  INFO [32m[][0;39m 24327 --- [restartedMain] o.a.coyote.http11.Http11NioProtocol      : Initializing ProtocolHandler ["http-nio-8080"]
+2024-03-18 20:20:09.661  INFO [32m[][0;39m 24327 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-03-18 20:20:09.661  INFO [32m[][0;39m 24327 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.5]
+2024-03-18 20:20:09.693  INFO [32m[][0;39m 24327 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-03-18 20:20:09.693  INFO [32m[][0;39m 24327 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 911 ms
+2024-03-18 20:20:09.948  WARN [33m[][0;39m 24327 --- [restartedMain] c.b.m.core.metadata.TableInfoHelper      : This primary key of "id" is primitive !不建议如此请使用包装类 in Class: "org.digitalcity.dao.entity.Attraction"
+2024-03-18 20:20:10.018  WARN [33m[][0;39m 24327 --- [restartedMain] c.b.m.core.metadata.TableInfoHelper      : This primary key of "id" is primitive !不建议如此请使用包装类 in Class: "org.digitalcity.dao.entity.Member"
+2024-03-18 20:20:10.400  INFO [32m[][0;39m 24327 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-03-18 20:20:10.425  INFO [32m[][0;39m 24327 --- [restartedMain] o.a.coyote.http11.Http11NioProtocol      : Starting ProtocolHandler ["http-nio-8080"]
+2024-03-18 20:20:10.434  INFO [32m[][0;39m 24327 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2024-03-18 20:20:10.440  INFO [32m[][0;39m 24327 --- [restartedMain] org.digitalcity.ApplicationStarter       : Started ApplicationStarter in 1.907 seconds (process running for 2.146)
+2024-03-18 20:20:14.859  INFO [32m[][0;39m 24327 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-03-18 20:20:14.860  INFO [32m[][0;39m 24327 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-03-18 20:20:14.862  INFO [32m[][0;39m 24327 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2024-03-18 20:20:50.061  INFO [32m[][0;39m 24327 --- [SpringApplicationShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-0} closing ...
+2024-03-18 20:20:51.551  INFO [32m[][0;39m 24335 --- [background-preinit] o.h.validator.internal.util.Version      : HV000001: Hibernate Validator 8.0.0.Final
+2024-03-18 20:20:51.570  INFO [32m[][0;39m 24335 --- [restartedMain] org.digitalcity.ApplicationStarter       : Starting ApplicationStarter using Java 17.0.4 with PID 24335 (/Users/marco/Workspace/source/java/digital_city/digital_city_web/build/classes/java/main started by marco in /Users/marco/Workspace/source/java/digital_city)
+2024-03-18 20:20:51.570  INFO [32m[][0;39m 24335 --- [restartedMain] org.digitalcity.ApplicationStarter       : No active profile set, falling back to 1 default profile: "default"
+2024-03-18 20:20:51.596  INFO [32m[][0;39m 24335 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-03-18 20:20:51.596  INFO [32m[][0;39m 24335 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-03-18 20:20:51.984  INFO [32m[][0;39m 24335 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2024-03-18 20:20:51.985  INFO [32m[][0;39m 24335 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-03-18 20:20:52.002  INFO [32m[][0;39m 24335 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 9 ms. Found 0 Redis repository interfaces.
+2024-03-18 20:20:52.207  INFO [32m[][0;39m 24335 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.boot.autoconfigure.jdbc.DataSourceTransactionManagerAutoConfiguration$JdbcTransactionManagerConfiguration' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceTransactionManagerAutoConfiguration$JdbcTransactionManagerConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-03-18 20:20:52.209  INFO [32m[][0;39m 24335 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration$Generic' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration$Generic] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-03-18 20:20:52.222  INFO [32m[][0;39m 24335 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'spring.datasource-org.springframework.boot.autoconfigure.jdbc.DataSourceProperties' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-03-18 20:20:52.239  INFO [32m[][0;39m 24335 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'dataSource' of type [com.alibaba.druid.pool.DruidDataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-03-18 20:20:52.262  INFO [32m[][0;39m 24335 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.boot.autoconfigure.transaction.TransactionAutoConfiguration' of type [org.springframework.boot.autoconfigure.transaction.TransactionAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-03-18 20:20:52.265  INFO [32m[][0;39m 24335 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'spring.transaction-org.springframework.boot.autoconfigure.transaction.TransactionProperties' of type [org.springframework.boot.autoconfigure.transaction.TransactionProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-03-18 20:20:52.265  INFO [32m[][0;39m 24335 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'platformTransactionManagerCustomizers' of type [org.springframework.boot.autoconfigure.transaction.TransactionManagerCustomizers] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-03-18 20:20:52.267  INFO [32m[][0;39m 24335 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'transactionManager' of type [org.springframework.jdbc.support.JdbcTransactionManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-03-18 20:20:52.269  INFO [32m[][0;39m 24335 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'transactionConfig' of type [org.digitalcity.config.TransactionConfig$$SpringCGLIB$$0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-03-18 20:20:52.272  INFO [32m[][0;39m 24335 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'txAdvice' of type [org.springframework.transaction.interceptor.TransactionInterceptor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-03-18 20:20:52.272  INFO [32m[][0;39m 24335 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'advisor' of type [org.springframework.aop.support.DefaultPointcutAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-03-18 20:20:52.476  INFO [32m[][0;39m 24335 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2024-03-18 20:20:52.482  INFO [32m[][0;39m 24335 --- [restartedMain] o.a.coyote.http11.Http11NioProtocol      : Initializing ProtocolHandler ["http-nio-8080"]
+2024-03-18 20:20:52.482  INFO [32m[][0;39m 24335 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-03-18 20:20:52.482  INFO [32m[][0;39m 24335 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.5]
+2024-03-18 20:20:52.511  INFO [32m[][0;39m 24335 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-03-18 20:20:52.512  INFO [32m[][0;39m 24335 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 916 ms
+2024-03-18 20:20:52.755  WARN [33m[][0;39m 24335 --- [restartedMain] c.b.m.core.metadata.TableInfoHelper      : This primary key of "id" is primitive !不建议如此请使用包装类 in Class: "org.digitalcity.dao.entity.Attraction"
+2024-03-18 20:20:52.822  WARN [33m[][0;39m 24335 --- [restartedMain] c.b.m.core.metadata.TableInfoHelper      : This primary key of "id" is primitive !不建议如此请使用包装类 in Class: "org.digitalcity.dao.entity.Member"
+2024-03-18 20:20:53.199  INFO [32m[][0;39m 24335 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-03-18 20:20:53.225  INFO [32m[][0;39m 24335 --- [restartedMain] o.a.coyote.http11.Http11NioProtocol      : Starting ProtocolHandler ["http-nio-8080"]
+2024-03-18 20:20:53.235  INFO [32m[][0;39m 24335 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2024-03-18 20:20:53.242  INFO [32m[][0;39m 24335 --- [restartedMain] org.digitalcity.ApplicationStarter       : Started ApplicationStarter in 1.916 seconds (process running for 2.179)
+2024-03-18 20:21:01.529  INFO [32m[][0;39m 24335 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-03-18 20:21:01.529  INFO [32m[][0;39m 24335 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-03-18 20:21:01.532  INFO [32m[][0;39m 24335 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2024-03-18 20:21:45.177  INFO [32m[][0;39m 24335 --- [http-nio-8080-exec-3] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2024-03-18 20:21:46.071  INFO [32m[][0;39m 24335 --- [http-nio-8080-exec-3] o.d.advice.GlobalExceptionAdvice         : 捕获到异常:Cannot invoke "org.digitalcity.dao.entity.Attraction.getId()" because "attraction" is null
+2024-03-18 20:21:46.087  WARN [33m[][0;39m 24335 --- [http-nio-8080-exec-3] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [java.lang.NullPointerException: Cannot invoke "org.digitalcity.dao.entity.Attraction.getId()" because "attraction" is null]
+2024-03-18 20:23:25.734  INFO [32m[][0;39m 24335 --- [SpringApplicationShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closing ...
+2024-03-18 20:23:25.736  INFO [32m[][0;39m 24335 --- [SpringApplicationShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
+2024-03-18 20:23:27.428  INFO [32m[][0;39m 24351 --- [background-preinit] o.h.validator.internal.util.Version      : HV000001: Hibernate Validator 8.0.0.Final
+2024-03-18 20:23:27.445  INFO [32m[][0;39m 24351 --- [restartedMain] org.digitalcity.ApplicationStarter       : Starting ApplicationStarter using Java 17.0.4 with PID 24351 (/Users/marco/Workspace/source/java/digital_city/digital_city_web/build/classes/java/main started by marco in /Users/marco/Workspace/source/java/digital_city)
+2024-03-18 20:23:27.445  INFO [32m[][0;39m 24351 --- [restartedMain] org.digitalcity.ApplicationStarter       : No active profile set, falling back to 1 default profile: "default"
+2024-03-18 20:23:27.467  INFO [32m[][0;39m 24351 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-03-18 20:23:27.468  INFO [32m[][0;39m 24351 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-03-18 20:23:27.811  INFO [32m[][0;39m 24351 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2024-03-18 20:23:27.813  INFO [32m[][0;39m 24351 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-03-18 20:23:27.828  INFO [32m[][0;39m 24351 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 9 ms. Found 0 Redis repository interfaces.
+2024-03-18 20:23:28.017  INFO [32m[][0;39m 24351 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.boot.autoconfigure.jdbc.DataSourceTransactionManagerAutoConfiguration$JdbcTransactionManagerConfiguration' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceTransactionManagerAutoConfiguration$JdbcTransactionManagerConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-03-18 20:23:28.019  INFO [32m[][0;39m 24351 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration$Generic' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration$Generic] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-03-18 20:23:28.031  INFO [32m[][0;39m 24351 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'spring.datasource-org.springframework.boot.autoconfigure.jdbc.DataSourceProperties' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-03-18 20:23:28.048  INFO [32m[][0;39m 24351 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'dataSource' of type [com.alibaba.druid.pool.DruidDataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-03-18 20:23:28.071  INFO [32m[][0;39m 24351 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.boot.autoconfigure.transaction.TransactionAutoConfiguration' of type [org.springframework.boot.autoconfigure.transaction.TransactionAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-03-18 20:23:28.074  INFO [32m[][0;39m 24351 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'spring.transaction-org.springframework.boot.autoconfigure.transaction.TransactionProperties' of type [org.springframework.boot.autoconfigure.transaction.TransactionProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-03-18 20:23:28.074  INFO [32m[][0;39m 24351 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'platformTransactionManagerCustomizers' of type [org.springframework.boot.autoconfigure.transaction.TransactionManagerCustomizers] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-03-18 20:23:28.076  INFO [32m[][0;39m 24351 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'transactionManager' of type [org.springframework.jdbc.support.JdbcTransactionManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-03-18 20:23:28.078  INFO [32m[][0;39m 24351 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'transactionConfig' of type [org.digitalcity.config.TransactionConfig$$SpringCGLIB$$0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-03-18 20:23:28.081  INFO [32m[][0;39m 24351 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'txAdvice' of type [org.springframework.transaction.interceptor.TransactionInterceptor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-03-18 20:23:28.082  INFO [32m[][0;39m 24351 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'advisor' of type [org.springframework.aop.support.DefaultPointcutAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-03-18 20:23:28.300  INFO [32m[][0;39m 24351 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2024-03-18 20:23:28.307  INFO [32m[][0;39m 24351 --- [restartedMain] o.a.coyote.http11.Http11NioProtocol      : Initializing ProtocolHandler ["http-nio-8080"]
+2024-03-18 20:23:28.307  INFO [32m[][0;39m 24351 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-03-18 20:23:28.308  INFO [32m[][0;39m 24351 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.5]
+2024-03-18 20:23:28.339  INFO [32m[][0;39m 24351 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-03-18 20:23:28.339  INFO [32m[][0;39m 24351 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 871 ms
+2024-03-18 20:23:28.580  WARN [33m[][0;39m 24351 --- [restartedMain] c.b.m.core.metadata.TableInfoHelper      : This primary key of "id" is primitive !不建议如此请使用包装类 in Class: "org.digitalcity.dao.entity.Attraction"
+2024-03-18 20:23:28.645  WARN [33m[][0;39m 24351 --- [restartedMain] c.b.m.core.metadata.TableInfoHelper      : This primary key of "id" is primitive !不建议如此请使用包装类 in Class: "org.digitalcity.dao.entity.Member"
+2024-03-18 20:23:28.984  INFO [32m[][0;39m 24351 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-03-18 20:23:29.007  INFO [32m[][0;39m 24351 --- [restartedMain] o.a.coyote.http11.Http11NioProtocol      : Starting ProtocolHandler ["http-nio-8080"]
+2024-03-18 20:23:29.015  INFO [32m[][0;39m 24351 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2024-03-18 20:23:29.021  INFO [32m[][0;39m 24351 --- [restartedMain] org.digitalcity.ApplicationStarter       : Started ApplicationStarter in 1.793 seconds (process running for 2.173)
+2024-03-18 20:23:31.313  INFO [32m[][0;39m 24351 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-03-18 20:23:31.314  INFO [32m[][0;39m 24351 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-03-18 20:23:31.315  INFO [32m[][0;39m 24351 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-03-18 20:24:31.175  INFO [32m[][0;39m 24351 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2024-03-18 20:24:31.269  INFO [32m[][0;39m 24351 --- [http-nio-8080-exec-4] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2024-03-18 20:24:32.193  INFO [32m[][0;39m 24351 --- [Thread-5] o.a.coyote.http11.Http11NioProtocol      : Pausing ProtocolHandler ["http-nio-8080"]
+2024-03-18 20:24:32.194  WARN [33m[][0;39m 24351 --- [Thread-5] org.apache.tomcat.util.net.NioEndpoint   : Failed to unlock acceptor for [http-nio-8080] because the local address was not available
+2024-03-18 20:24:32.194  INFO [32m[][0;39m 24351 --- [Thread-5] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2024-03-18 20:24:32.195  INFO [32m[][0;39m 24351 --- [Thread-5] o.apache.catalina.core.StandardWrapper   : Waiting for [1] instance(s) to be deallocated for Servlet [dispatcherServlet]
+2024-03-18 20:24:32.196 ERROR [31m[][0;39m 24351 --- [http-nio-8080-Acceptor] org.apache.tomcat.util.net.Acceptor      : Socket accept failed
+
+java.nio.channels.AsynchronousCloseException: null
+	at java.base/java.nio.channels.spi.AbstractInterruptibleChannel.end(AbstractInterruptibleChannel.java:202)
+	at java.base/sun.nio.ch.ServerSocketChannelImpl.end(ServerSocketChannelImpl.java:376)
+	at java.base/sun.nio.ch.ServerSocketChannelImpl.accept(ServerSocketChannelImpl.java:399)
+	at org.apache.tomcat.util.net.NioEndpoint.serverSocketAccept(NioEndpoint.java:520)
+	at org.apache.tomcat.util.net.NioEndpoint.serverSocketAccept(NioEndpoint.java:79)
+	at org.apache.tomcat.util.net.Acceptor.run(Acceptor.java:128)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+
+2024-03-18 20:24:32.297  INFO [32m[][0;39m 24351 --- [Thread-5] o.a.c.c.C.[Tomcat].[localhost].[/]       : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2024-03-18 20:24:32.316  WARN [33m[][0;39m 24351 --- [Thread-5] o.a.c.loader.WebappClassLoaderBase       : The web application [ROOT] appears to have started a thread named [lettuce-nioEventLoop-4-1] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.4/sun.nio.ch.KQueue.poll(Native Method)
+ java.base@17.0.4/sun.nio.ch.KQueueSelectorImpl.doSelect(KQueueSelectorImpl.java:122)
+ java.base@17.0.4/sun.nio.ch.SelectorImpl.lockAndDoSelect(SelectorImpl.java:129)
+ java.base@17.0.4/sun.nio.ch.SelectorImpl.select(SelectorImpl.java:146)
+ app//io.netty.channel.nio.SelectedSelectionKeySetSelector.select(SelectedSelectionKeySetSelector.java:68)
+ app//io.netty.channel.nio.NioEventLoop.select(NioEventLoop.java:879)
+ app//io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:526)
+ app//io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+ app//io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+ app//io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+ java.base@17.0.4/java.lang.Thread.run(Thread.java:833)
+2024-03-18 20:24:32.316  WARN [33m[][0;39m 24351 --- [Thread-5] o.a.c.loader.WebappClassLoaderBase       : The web application [ROOT] appears to have started a thread named [lettuce-eventExecutorLoop-1-1] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.4/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base@17.0.4/java.util.concurrent.locks.LockSupport.park(LockSupport.java:341)
+ java.base@17.0.4/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionNode.block(AbstractQueuedSynchronizer.java:506)
+ java.base@17.0.4/java.util.concurrent.ForkJoinPool.unmanagedBlock(ForkJoinPool.java:3463)
+ java.base@17.0.4/java.util.concurrent.ForkJoinPool.managedBlock(ForkJoinPool.java:3434)
+ java.base@17.0.4/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:1623)
+ java.base@17.0.4/java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:435)
+ app//io.netty.util.concurrent.SingleThreadEventExecutor.takeTask(SingleThreadEventExecutor.java:244)
+ app//io.netty.util.concurrent.DefaultEventExecutor.run(DefaultEventExecutor.java:64)
+ app//io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+ app//io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+ app//io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+ java.base@17.0.4/java.lang.Thread.run(Thread.java:833)
+2024-03-18 20:24:32.317  WARN [33m[][0;39m 24351 --- [Thread-5] o.a.c.loader.WebappClassLoaderBase       : The web application [ROOT] appears to have started a thread named [lettuce-nioEventLoop-4-2] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.4/sun.nio.ch.KQueue.poll(Native Method)
+ java.base@17.0.4/sun.nio.ch.KQueueSelectorImpl.doSelect(KQueueSelectorImpl.java:122)
+ java.base@17.0.4/sun.nio.ch.SelectorImpl.lockAndDoSelect(SelectorImpl.java:129)
+ java.base@17.0.4/sun.nio.ch.SelectorImpl.select(SelectorImpl.java:146)
+ app//io.netty.channel.nio.SelectedSelectionKeySetSelector.select(SelectedSelectionKeySetSelector.java:68)
+ app//io.netty.channel.nio.NioEventLoop.select(NioEventLoop.java:879)
+ app//io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:526)
+ app//io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+ app//io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+ app//io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+ java.base@17.0.4/java.lang.Thread.run(Thread.java:833)
+2024-03-18 20:24:32.317  WARN [33m[][0;39m 24351 --- [Thread-5] o.a.c.loader.WebappClassLoaderBase       : The web application [ROOT] appears to have started a thread named [lettuce-nioEventLoop-4-3] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.4/sun.nio.ch.KQueue.poll(Native Method)
+ java.base@17.0.4/sun.nio.ch.KQueueSelectorImpl.doSelect(KQueueSelectorImpl.java:122)
+ java.base@17.0.4/sun.nio.ch.SelectorImpl.lockAndDoSelect(SelectorImpl.java:129)
+ java.base@17.0.4/sun.nio.ch.SelectorImpl.select(SelectorImpl.java:146)
+ app//io.netty.channel.nio.SelectedSelectionKeySetSelector.select(SelectedSelectionKeySetSelector.java:68)
+ app//io.netty.channel.nio.NioEventLoop.select(NioEventLoop.java:879)
+ app//io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:526)
+ app//io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+ app//io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+ app//io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+ java.base@17.0.4/java.lang.Thread.run(Thread.java:833)
+2024-03-18 20:24:32.317  WARN [33m[][0;39m 24351 --- [Thread-5] o.a.c.loader.WebappClassLoaderBase       : The web application [ROOT] appears to have started a thread named [lettuce-nioEventLoop-4-4] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.4/sun.nio.ch.KQueue.poll(Native Method)
+ java.base@17.0.4/sun.nio.ch.KQueueSelectorImpl.doSelect(KQueueSelectorImpl.java:122)
+ java.base@17.0.4/sun.nio.ch.SelectorImpl.lockAndDoSelect(SelectorImpl.java:129)
+ java.base@17.0.4/sun.nio.ch.SelectorImpl.select(SelectorImpl.java:146)
+ app//io.netty.channel.nio.SelectedSelectionKeySetSelector.select(SelectedSelectionKeySetSelector.java:68)
+ app//io.netty.channel.nio.NioEventLoop.select(NioEventLoop.java:879)
+ app//io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:526)
+ app//io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+ app//io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+ app//io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+ java.base@17.0.4/java.lang.Thread.run(Thread.java:833)
+2024-03-18 20:24:32.318  WARN [33m[][0;39m 24351 --- [Thread-5] o.a.c.loader.WebappClassLoaderBase       : The web application [ROOT] appears to have started a thread named [lettuce-nioEventLoop-4-5] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.4/sun.nio.ch.KQueue.poll(Native Method)
+ java.base@17.0.4/sun.nio.ch.KQueueSelectorImpl.doSelect(KQueueSelectorImpl.java:122)
+ java.base@17.0.4/sun.nio.ch.SelectorImpl.lockAndDoSelect(SelectorImpl.java:129)
+ java.base@17.0.4/sun.nio.ch.SelectorImpl.select(SelectorImpl.java:146)
+ app//io.netty.channel.nio.SelectedSelectionKeySetSelector.select(SelectedSelectionKeySetSelector.java:68)
+ app//io.netty.channel.nio.NioEventLoop.select(NioEventLoop.java:879)
+ app//io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:526)
+ app//io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+ app//io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+ app//io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+ java.base@17.0.4/java.lang.Thread.run(Thread.java:833)
+2024-03-18 20:24:32.318  WARN [33m[][0;39m 24351 --- [Thread-5] o.a.c.loader.WebappClassLoaderBase       : The web application [ROOT] appears to have started a thread named [lettuce-nioEventLoop-4-6] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.4/sun.nio.ch.KQueue.poll(Native Method)
+ java.base@17.0.4/sun.nio.ch.KQueueSelectorImpl.doSelect(KQueueSelectorImpl.java:122)
+ java.base@17.0.4/sun.nio.ch.SelectorImpl.lockAndDoSelect(SelectorImpl.java:129)
+ java.base@17.0.4/sun.nio.ch.SelectorImpl.select(SelectorImpl.java:146)
+ app//io.netty.channel.nio.SelectedSelectionKeySetSelector.select(SelectedSelectionKeySetSelector.java:68)
+ app//io.netty.channel.nio.NioEventLoop.select(NioEventLoop.java:879)
+ app//io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:526)
+ app//io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+ app//io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+ app//io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+ java.base@17.0.4/java.lang.Thread.run(Thread.java:833)
+2024-03-18 20:24:32.318  WARN [33m[][0;39m 24351 --- [Thread-5] o.a.c.loader.WebappClassLoaderBase       : The web application [ROOT] appears to have started a thread named [lettuce-nioEventLoop-4-7] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.4/sun.nio.ch.KQueue.poll(Native Method)
+ java.base@17.0.4/sun.nio.ch.KQueueSelectorImpl.doSelect(KQueueSelectorImpl.java:122)
+ java.base@17.0.4/sun.nio.ch.SelectorImpl.lockAndDoSelect(SelectorImpl.java:129)
+ java.base@17.0.4/sun.nio.ch.SelectorImpl.select(SelectorImpl.java:146)
+ app//io.netty.channel.nio.SelectedSelectionKeySetSelector.select(SelectedSelectionKeySetSelector.java:68)
+ app//io.netty.channel.nio.NioEventLoop.select(NioEventLoop.java:879)
+ app//io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:526)
+ app//io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+ app//io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+ app//io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+ java.base@17.0.4/java.lang.Thread.run(Thread.java:833)
+2024-03-18 20:24:32.319  WARN [33m[][0;39m 24351 --- [Thread-5] o.a.c.loader.WebappClassLoaderBase       : The web application [ROOT] appears to have started a thread named [lettuce-nioEventLoop-4-8] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.4/sun.nio.ch.KQueue.poll(Native Method)
+ java.base@17.0.4/sun.nio.ch.KQueueSelectorImpl.doSelect(KQueueSelectorImpl.java:122)
+ java.base@17.0.4/sun.nio.ch.SelectorImpl.lockAndDoSelect(SelectorImpl.java:129)
+ java.base@17.0.4/sun.nio.ch.SelectorImpl.select(SelectorImpl.java:146)
+ app//io.netty.channel.nio.SelectedSelectionKeySetSelector.select(SelectedSelectionKeySetSelector.java:68)
+ app//io.netty.channel.nio.NioEventLoop.select(NioEventLoop.java:879)
+ app//io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:526)
+ app//io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+ app//io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+ app//io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+ java.base@17.0.4/java.lang.Thread.run(Thread.java:833)
+2024-03-18 20:24:32.319  WARN [33m[][0;39m 24351 --- [Thread-5] o.a.c.loader.WebappClassLoaderBase       : The web application [ROOT] appears to have started a thread named [lettuce-nioEventLoop-4-9] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.4/sun.nio.ch.KQueue.poll(Native Method)
+ java.base@17.0.4/sun.nio.ch.KQueueSelectorImpl.doSelect(KQueueSelectorImpl.java:122)
+ java.base@17.0.4/sun.nio.ch.SelectorImpl.lockAndDoSelect(SelectorImpl.java:129)
+ java.base@17.0.4/sun.nio.ch.SelectorImpl.select(SelectorImpl.java:146)
+ app//io.netty.channel.nio.SelectedSelectionKeySetSelector.select(SelectedSelectionKeySetSelector.java:68)
+ app//io.netty.channel.nio.NioEventLoop.select(NioEventLoop.java:879)
+ app//io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:526)
+ app//io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+ app//io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+ app//io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+ java.base@17.0.4/java.lang.Thread.run(Thread.java:833)
+2024-03-18 20:24:32.320  WARN [33m[][0;39m 24351 --- [Thread-5] o.a.c.loader.WebappClassLoaderBase       : The web application [ROOT] appears to have started a thread named [lettuce-nioEventLoop-4-10] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.4/sun.nio.ch.KQueue.poll(Native Method)
+ java.base@17.0.4/sun.nio.ch.KQueueSelectorImpl.doSelect(KQueueSelectorImpl.java:122)
+ java.base@17.0.4/sun.nio.ch.SelectorImpl.lockAndDoSelect(SelectorImpl.java:129)
+ java.base@17.0.4/sun.nio.ch.SelectorImpl.select(SelectorImpl.java:146)
+ app//io.netty.channel.nio.SelectedSelectionKeySetSelector.select(SelectedSelectionKeySetSelector.java:68)
+ app//io.netty.channel.nio.NioEventLoop.select(NioEventLoop.java:879)
+ app//io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:526)
+ app//io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+ app//io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+ app//io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+ java.base@17.0.4/java.lang.Thread.run(Thread.java:833)
+2024-03-18 20:24:32.320  WARN [33m[][0;39m 24351 --- [Thread-5] o.a.c.loader.WebappClassLoaderBase       : The web application [ROOT] appears to have started a thread named [lettuce-eventExecutorLoop-1-2] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.4/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base@17.0.4/java.util.concurrent.locks.LockSupport.park(LockSupport.java:341)
+ java.base@17.0.4/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionNode.block(AbstractQueuedSynchronizer.java:506)
+ java.base@17.0.4/java.util.concurrent.ForkJoinPool.unmanagedBlock(ForkJoinPool.java:3463)
+ java.base@17.0.4/java.util.concurrent.ForkJoinPool.managedBlock(ForkJoinPool.java:3434)
+ java.base@17.0.4/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:1623)
+ java.base@17.0.4/java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:435)
+ app//io.netty.util.concurrent.SingleThreadEventExecutor.takeTask(SingleThreadEventExecutor.java:244)
+ app//io.netty.util.concurrent.DefaultEventExecutor.run(DefaultEventExecutor.java:64)
+ app//io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+ app//io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+ app//io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+ java.base@17.0.4/java.lang.Thread.run(Thread.java:833)
+2024-03-18 20:24:32.320  WARN [33m[][0;39m 24351 --- [Thread-5] o.a.c.loader.WebappClassLoaderBase       : The web application [ROOT] appears to have started a thread named [lettuce-eventExecutorLoop-1-3] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.4/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base@17.0.4/java.util.concurrent.locks.LockSupport.park(LockSupport.java:341)
+ java.base@17.0.4/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionNode.block(AbstractQueuedSynchronizer.java:506)
+ java.base@17.0.4/java.util.concurrent.ForkJoinPool.unmanagedBlock(ForkJoinPool.java:3463)
+ java.base@17.0.4/java.util.concurrent.ForkJoinPool.managedBlock(ForkJoinPool.java:3434)
+ java.base@17.0.4/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:1623)
+ java.base@17.0.4/java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:435)
+ app//io.netty.util.concurrent.SingleThreadEventExecutor.takeTask(SingleThreadEventExecutor.java:244)
+ app//io.netty.util.concurrent.DefaultEventExecutor.run(DefaultEventExecutor.java:64)
+ app//io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+ app//io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+ app//io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+ java.base@17.0.4/java.lang.Thread.run(Thread.java:833)
+2024-03-18 20:24:32.320  WARN [33m[][0;39m 24351 --- [Thread-5] o.a.c.loader.WebappClassLoaderBase       : The web application [ROOT] appears to have started a thread named [Druid-ConnectionPool-Create-679389189] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.4/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base@17.0.4/java.util.concurrent.locks.LockSupport.park(LockSupport.java:341)
+ java.base@17.0.4/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionNode.block(AbstractQueuedSynchronizer.java:506)
+ java.base@17.0.4/java.util.concurrent.ForkJoinPool.unmanagedBlock(ForkJoinPool.java:3463)
+ java.base@17.0.4/java.util.concurrent.ForkJoinPool.managedBlock(ForkJoinPool.java:3434)
+ java.base@17.0.4/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:1623)
+ app//com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:2885)
+2024-03-18 20:24:32.321  WARN [33m[][0;39m 24351 --- [Thread-5] o.a.c.loader.WebappClassLoaderBase       : The web application [ROOT] appears to have started a thread named [Druid-ConnectionPool-Destroy-679389189] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.4/java.lang.Thread.sleep(Native Method)
+ app//com.alibaba.druid.pool.DruidDataSource$DestroyConnectionThread.run(DruidDataSource.java:2984)
+2024-03-18 20:24:32.321  WARN [33m[][0;39m 24351 --- [Thread-5] o.a.c.loader.WebappClassLoaderBase       : The web application [ROOT] appears to have started a thread named [lettuce-eventExecutorLoop-1-4] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.4/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base@17.0.4/java.util.concurrent.locks.LockSupport.park(LockSupport.java:341)
+ java.base@17.0.4/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionNode.block(AbstractQueuedSynchronizer.java:506)
+ java.base@17.0.4/java.util.concurrent.ForkJoinPool.unmanagedBlock(ForkJoinPool.java:3463)
+ java.base@17.0.4/java.util.concurrent.ForkJoinPool.managedBlock(ForkJoinPool.java:3434)
+ java.base@17.0.4/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:1623)
+ java.base@17.0.4/java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:435)
+ app//io.netty.util.concurrent.SingleThreadEventExecutor.takeTask(SingleThreadEventExecutor.java:244)
+ app//io.netty.util.concurrent.DefaultEventExecutor.run(DefaultEventExecutor.java:64)
+ app//io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+ app//io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+ app//io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+ java.base@17.0.4/java.lang.Thread.run(Thread.java:833)
+2024-03-18 20:24:32.322  INFO [32m[][0;39m 24351 --- [Thread-5] o.a.coyote.http11.Http11NioProtocol      : Stopping ProtocolHandler ["http-nio-8080"]
+2024-03-18 20:24:32.323  INFO [32m[][0;39m 24351 --- [Thread-5] o.a.coyote.http11.Http11NioProtocol      : Destroying ProtocolHandler ["http-nio-8080"]
+2024-03-18 20:24:32.443  INFO [32m[][0;39m 24351 --- [Thread-5] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closing ...
+2024-03-18 20:24:32.445  INFO [32m[][0;39m 24351 --- [Thread-5] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
+2024-03-18 20:24:32.491  INFO [32m[][0;39m 24351 --- [restartedMain] org.digitalcity.ApplicationStarter       : Starting ApplicationStarter using Java 17.0.4 with PID 24351 (/Users/marco/Workspace/source/java/digital_city/digital_city_web/build/classes/java/main started by marco in /Users/marco/Workspace/source/java/digital_city)
+2024-03-18 20:24:32.491  INFO [32m[][0;39m 24351 --- [restartedMain] org.digitalcity.ApplicationStarter       : No active profile set, falling back to 1 default profile: "default"
+2024-03-18 20:24:32.597  INFO [32m[][0;39m 24351 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2024-03-18 20:24:32.598  INFO [32m[][0;39m 24351 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-03-18 20:24:32.602  INFO [32m[][0;39m 24351 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 4 ms. Found 0 Redis repository interfaces.
+2024-03-18 20:24:32.637  INFO [32m[][0;39m 24351 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.boot.autoconfigure.jdbc.DataSourceTransactionManagerAutoConfiguration$JdbcTransactionManagerConfiguration' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceTransactionManagerAutoConfiguration$JdbcTransactionManagerConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-03-18 20:24:32.638  INFO [32m[][0;39m 24351 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration$Generic' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration$Generic] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-03-18 20:24:32.641  INFO [32m[][0;39m 24351 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'spring.datasource-org.springframework.boot.autoconfigure.jdbc.DataSourceProperties' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-03-18 20:24:32.644  INFO [32m[][0;39m 24351 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'dataSource' of type [com.alibaba.druid.pool.DruidDataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-03-18 20:24:32.665  INFO [32m[][0;39m 24351 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.boot.autoconfigure.transaction.TransactionAutoConfiguration' of type [org.springframework.boot.autoconfigure.transaction.TransactionAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-03-18 20:24:32.666  INFO [32m[][0;39m 24351 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'spring.transaction-org.springframework.boot.autoconfigure.transaction.TransactionProperties' of type [org.springframework.boot.autoconfigure.transaction.TransactionProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-03-18 20:24:32.666  INFO [32m[][0;39m 24351 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'platformTransactionManagerCustomizers' of type [org.springframework.boot.autoconfigure.transaction.TransactionManagerCustomizers] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-03-18 20:24:32.666  INFO [32m[][0;39m 24351 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'transactionManager' of type [org.springframework.jdbc.support.JdbcTransactionManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-03-18 20:24:32.668  INFO [32m[][0;39m 24351 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'transactionConfig' of type [org.digitalcity.config.TransactionConfig$$SpringCGLIB$$0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-03-18 20:24:32.668  INFO [32m[][0;39m 24351 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'txAdvice' of type [org.springframework.transaction.interceptor.TransactionInterceptor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-03-18 20:24:32.669  INFO [32m[][0;39m 24351 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'advisor' of type [org.springframework.aop.support.DefaultPointcutAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-03-18 20:24:32.707  INFO [32m[][0;39m 24351 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2024-03-18 20:24:32.708  INFO [32m[][0;39m 24351 --- [restartedMain] o.a.coyote.http11.Http11NioProtocol      : Initializing ProtocolHandler ["http-nio-8080"]
+2024-03-18 20:24:32.708  INFO [32m[][0;39m 24351 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-03-18 20:24:32.708  INFO [32m[][0;39m 24351 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.5]
+2024-03-18 20:24:32.713  INFO [32m[][0;39m 24351 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-03-18 20:24:32.713  INFO [32m[][0;39m 24351 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 220 ms
+2024-03-18 20:24:32.758  WARN [33m[][0;39m 24351 --- [restartedMain] c.b.m.core.metadata.TableInfoHelper      : This primary key of "id" is primitive !不建议如此请使用包装类 in Class: "org.digitalcity.dao.entity.Attraction"
+2024-03-18 20:24:32.775  WARN [33m[][0;39m 24351 --- [restartedMain] c.b.m.core.metadata.TableInfoHelper      : This primary key of "id" is primitive !不建议如此请使用包装类 in Class: "org.digitalcity.dao.entity.Member"
+2024-03-18 20:24:32.973  INFO [32m[][0;39m 24351 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-03-18 20:24:32.989  INFO [32m[][0;39m 24351 --- [restartedMain] o.a.coyote.http11.Http11NioProtocol      : Starting ProtocolHandler ["http-nio-8080"]
+2024-03-18 20:24:32.990  INFO [32m[][0;39m 24351 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2024-03-18 20:24:32.993  INFO [32m[][0;39m 24351 --- [restartedMain] org.digitalcity.ApplicationStarter       : Started ApplicationStarter in 0.52 seconds (process running for 66.145)
+2024-03-18 20:24:32.994  INFO [32m[][0;39m 24351 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2024-03-18 20:24:57.090  INFO [32m[][0;39m 24351 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2024-03-18 20:24:58.102  INFO [32m[][0;39m 24351 --- [Thread-7] o.a.coyote.http11.Http11NioProtocol      : Pausing ProtocolHandler ["http-nio-8080"]
+2024-03-18 20:24:58.103  WARN [33m[][0;39m 24351 --- [Thread-7] org.apache.tomcat.util.net.NioEndpoint   : Failed to unlock acceptor for [http-nio-8080] because the local address was not available
+2024-03-18 20:24:58.104  INFO [32m[][0;39m 24351 --- [Thread-7] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2024-03-18 20:24:58.110  INFO [32m[][0;39m 24351 --- [Thread-7] o.a.coyote.http11.Http11NioProtocol      : Stopping ProtocolHandler ["http-nio-8080"]
+2024-03-18 20:24:58.113  INFO [32m[][0;39m 24351 --- [Thread-7] o.a.coyote.http11.Http11NioProtocol      : Destroying ProtocolHandler ["http-nio-8080"]
+2024-03-18 20:24:58.127  INFO [32m[][0;39m 24351 --- [Thread-7] com.alibaba.druid.pool.DruidDataSource   : {dataSource-0} closing ...
+2024-03-18 20:24:58.174  INFO [32m[][0;39m 24351 --- [restartedMain] org.digitalcity.ApplicationStarter       : Starting ApplicationStarter using Java 17.0.4 with PID 24351 (/Users/marco/Workspace/source/java/digital_city/digital_city_web/build/classes/java/main started by marco in /Users/marco/Workspace/source/java/digital_city)
+2024-03-18 20:24:58.174  INFO [32m[][0;39m 24351 --- [restartedMain] org.digitalcity.ApplicationStarter       : No active profile set, falling back to 1 default profile: "default"
+2024-03-18 20:24:58.269  INFO [32m[][0;39m 24351 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2024-03-18 20:24:58.269  INFO [32m[][0;39m 24351 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-03-18 20:24:58.272  INFO [32m[][0;39m 24351 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 3 ms. Found 0 Redis repository interfaces.
+2024-03-18 20:24:58.303  INFO [32m[][0;39m 24351 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.boot.autoconfigure.jdbc.DataSourceTransactionManagerAutoConfiguration$JdbcTransactionManagerConfiguration' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceTransactionManagerAutoConfiguration$JdbcTransactionManagerConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-03-18 20:24:58.304  INFO [32m[][0;39m 24351 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration$Generic' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration$Generic] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-03-18 20:24:58.306  INFO [32m[][0;39m 24351 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'spring.datasource-org.springframework.boot.autoconfigure.jdbc.DataSourceProperties' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-03-18 20:24:58.310  INFO [32m[][0;39m 24351 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'dataSource' of type [com.alibaba.druid.pool.DruidDataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-03-18 20:24:58.330  INFO [32m[][0;39m 24351 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.boot.autoconfigure.transaction.TransactionAutoConfiguration' of type [org.springframework.boot.autoconfigure.transaction.TransactionAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-03-18 20:24:58.331  INFO [32m[][0;39m 24351 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'spring.transaction-org.springframework.boot.autoconfigure.transaction.TransactionProperties' of type [org.springframework.boot.autoconfigure.transaction.TransactionProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-03-18 20:24:58.331  INFO [32m[][0;39m 24351 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'platformTransactionManagerCustomizers' of type [org.springframework.boot.autoconfigure.transaction.TransactionManagerCustomizers] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-03-18 20:24:58.331  INFO [32m[][0;39m 24351 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'transactionManager' of type [org.springframework.jdbc.support.JdbcTransactionManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-03-18 20:24:58.332  INFO [32m[][0;39m 24351 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'transactionConfig' of type [org.digitalcity.config.TransactionConfig$$SpringCGLIB$$0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-03-18 20:24:58.333  INFO [32m[][0;39m 24351 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'txAdvice' of type [org.springframework.transaction.interceptor.TransactionInterceptor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-03-18 20:24:58.333  INFO [32m[][0;39m 24351 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'advisor' of type [org.springframework.aop.support.DefaultPointcutAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-03-18 20:24:58.369  INFO [32m[][0;39m 24351 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2024-03-18 20:24:58.369  INFO [32m[][0;39m 24351 --- [restartedMain] o.a.coyote.http11.Http11NioProtocol      : Initializing ProtocolHandler ["http-nio-8080"]
+2024-03-18 20:24:58.369  INFO [32m[][0;39m 24351 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-03-18 20:24:58.369  INFO [32m[][0;39m 24351 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.5]
+2024-03-18 20:24:58.377  INFO [32m[][0;39m 24351 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-03-18 20:24:58.377  INFO [32m[][0;39m 24351 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 202 ms
+2024-03-18 20:24:58.424  WARN [33m[][0;39m 24351 --- [restartedMain] c.b.m.core.metadata.TableInfoHelper      : This primary key of "id" is primitive !不建议如此请使用包装类 in Class: "org.digitalcity.dao.entity.Attraction"
+2024-03-18 20:24:58.444  WARN [33m[][0;39m 24351 --- [restartedMain] c.b.m.core.metadata.TableInfoHelper      : This primary key of "id" is primitive !不建议如此请使用包装类 in Class: "org.digitalcity.dao.entity.Member"
+2024-03-18 20:24:58.653  INFO [32m[][0;39m 24351 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-03-18 20:24:58.672  INFO [32m[][0;39m 24351 --- [restartedMain] o.a.coyote.http11.Http11NioProtocol      : Starting ProtocolHandler ["http-nio-8080"]
+2024-03-18 20:24:58.674  INFO [32m[][0;39m 24351 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2024-03-18 20:24:58.676  INFO [32m[][0;39m 24351 --- [restartedMain] org.digitalcity.ApplicationStarter       : Started ApplicationStarter in 0.518 seconds (process running for 91.828)
+2024-03-18 20:24:58.677  INFO [32m[][0;39m 24351 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2024-03-18 20:26:25.078  INFO [32m[][0;39m 24351 --- [SpringApplicationShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-0} closing ...
+2024-03-18 20:26:26.818  INFO [32m[][0;39m 24372 --- [background-preinit] o.h.validator.internal.util.Version      : HV000001: Hibernate Validator 8.0.0.Final
+2024-03-18 20:26:26.838  INFO [32m[][0;39m 24372 --- [restartedMain] org.digitalcity.ApplicationStarter       : Starting ApplicationStarter using Java 17.0.4 with PID 24372 (/Users/marco/Workspace/source/java/digital_city/digital_city_web/build/classes/java/main started by marco in /Users/marco/Workspace/source/java/digital_city)
+2024-03-18 20:26:26.839  INFO [32m[][0;39m 24372 --- [restartedMain] org.digitalcity.ApplicationStarter       : No active profile set, falling back to 1 default profile: "default"
+2024-03-18 20:26:26.865  INFO [32m[][0;39m 24372 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-03-18 20:26:26.865  INFO [32m[][0;39m 24372 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-03-18 20:26:27.219  INFO [32m[][0;39m 24372 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2024-03-18 20:26:27.221  INFO [32m[][0;39m 24372 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-03-18 20:26:27.237  INFO [32m[][0;39m 24372 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 9 ms. Found 0 Redis repository interfaces.
+2024-03-18 20:26:27.452  INFO [32m[][0;39m 24372 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.boot.autoconfigure.jdbc.DataSourceTransactionManagerAutoConfiguration$JdbcTransactionManagerConfiguration' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceTransactionManagerAutoConfiguration$JdbcTransactionManagerConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-03-18 20:26:27.455  INFO [32m[][0;39m 24372 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration$Generic' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration$Generic] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-03-18 20:26:27.468  INFO [32m[][0;39m 24372 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'spring.datasource-org.springframework.boot.autoconfigure.jdbc.DataSourceProperties' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-03-18 20:26:27.486  INFO [32m[][0;39m 24372 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'dataSource' of type [com.alibaba.druid.pool.DruidDataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-03-18 20:26:27.509  INFO [32m[][0;39m 24372 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.boot.autoconfigure.transaction.TransactionAutoConfiguration' of type [org.springframework.boot.autoconfigure.transaction.TransactionAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-03-18 20:26:27.513  INFO [32m[][0;39m 24372 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'spring.transaction-org.springframework.boot.autoconfigure.transaction.TransactionProperties' of type [org.springframework.boot.autoconfigure.transaction.TransactionProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-03-18 20:26:27.513  INFO [32m[][0;39m 24372 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'platformTransactionManagerCustomizers' of type [org.springframework.boot.autoconfigure.transaction.TransactionManagerCustomizers] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-03-18 20:26:27.515  INFO [32m[][0;39m 24372 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'transactionManager' of type [org.springframework.jdbc.support.JdbcTransactionManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-03-18 20:26:27.516  INFO [32m[][0;39m 24372 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'transactionConfig' of type [org.digitalcity.config.TransactionConfig$$SpringCGLIB$$0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-03-18 20:26:27.520  INFO [32m[][0;39m 24372 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'txAdvice' of type [org.springframework.transaction.interceptor.TransactionInterceptor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-03-18 20:26:27.520  INFO [32m[][0;39m 24372 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'advisor' of type [org.springframework.aop.support.DefaultPointcutAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-03-18 20:26:27.735  INFO [32m[][0;39m 24372 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2024-03-18 20:26:27.741  INFO [32m[][0;39m 24372 --- [restartedMain] o.a.coyote.http11.Http11NioProtocol      : Initializing ProtocolHandler ["http-nio-8080"]
+2024-03-18 20:26:27.742  INFO [32m[][0;39m 24372 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-03-18 20:26:27.742  INFO [32m[][0;39m 24372 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.5]
+2024-03-18 20:26:27.773  INFO [32m[][0;39m 24372 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-03-18 20:26:27.773  INFO [32m[][0;39m 24372 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 908 ms
+2024-03-18 20:26:28.006  WARN [33m[][0;39m 24372 --- [restartedMain] c.b.m.core.metadata.TableInfoHelper      : This primary key of "id" is primitive !不建议如此请使用包装类 in Class: "org.digitalcity.dao.entity.Attraction"
+2024-03-18 20:26:28.071  WARN [33m[][0;39m 24372 --- [restartedMain] c.b.m.core.metadata.TableInfoHelper      : This primary key of "id" is primitive !不建议如此请使用包装类 in Class: "org.digitalcity.dao.entity.Member"
+2024-03-18 20:26:28.419  INFO [32m[][0;39m 24372 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-03-18 20:26:28.442  INFO [32m[][0;39m 24372 --- [restartedMain] o.a.coyote.http11.Http11NioProtocol      : Starting ProtocolHandler ["http-nio-8080"]
+2024-03-18 20:26:28.451  INFO [32m[][0;39m 24372 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2024-03-18 20:26:28.456  INFO [32m[][0;39m 24372 --- [restartedMain] org.digitalcity.ApplicationStarter       : Started ApplicationStarter in 1.865 seconds (process running for 2.234)
+2024-03-18 20:27:04.047  INFO [32m[][0;39m 24372 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-03-18 20:27:04.048  INFO [32m[][0;39m 24372 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-03-18 20:27:04.049  INFO [32m[][0;39m 24372 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-03-18 20:27:04.475  INFO [32m[][0;39m 24372 --- [http-nio-8080-exec-2] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2024-03-18 20:41:55.347  INFO [32m[][0;39m 24372 --- [SpringApplicationShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closing ...
+2024-03-18 20:41:55.349  INFO [32m[][0;39m 24372 --- [SpringApplicationShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed

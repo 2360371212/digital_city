@@ -1,0 +1,113 @@
+2024-01-22 17:09:06.069  INFO [32m[][0;39m 7509 --- [restartedMain] o.d.starter.ApplicationStarter           : Starting ApplicationStarter using Java 17.0.4 with PID 7509 (/Users/marco/Workspace/source/java/digital_city/digital_city_web/build/classes/java/main started by marco in /Users/marco/Workspace/source/java/digital_city)
+2024-01-22 17:09:06.072  INFO [32m[][0;39m 7509 --- [restartedMain] o.d.starter.ApplicationStarter           : No active profile set, falling back to 1 default profile: "default"
+2024-01-22 17:09:06.093  INFO [32m[][0;39m 7509 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-01-22 17:09:06.093  INFO [32m[][0;39m 7509 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-01-22 17:09:06.498  INFO [32m[][0;39m 7509 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2024-01-22 17:09:06.502  INFO [32m[][0;39m 7509 --- [restartedMain] o.a.coyote.http11.Http11NioProtocol      : Initializing ProtocolHandler ["http-nio-8080"]
+2024-01-22 17:09:06.502  INFO [32m[][0;39m 7509 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-01-22 17:09:06.503  INFO [32m[][0;39m 7509 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.5]
+2024-01-22 17:09:06.529  INFO [32m[][0;39m 7509 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-01-22 17:09:06.529  INFO [32m[][0;39m 7509 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 435 ms
+2024-01-22 17:09:06.662  INFO [32m[][0;39m 7509 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-01-22 17:09:06.669  INFO [32m[][0;39m 7509 --- [restartedMain] o.a.coyote.http11.Http11NioProtocol      : Starting ProtocolHandler ["http-nio-8080"]
+2024-01-22 17:09:06.680  INFO [32m[][0;39m 7509 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2024-01-22 17:09:06.685  INFO [32m[][0;39m 7509 --- [restartedMain] o.d.starter.ApplicationStarter           : Started ApplicationStarter in 0.865 seconds (process running for 1.203)
+2024-01-22 17:09:18.356  INFO [32m[][0;39m 7509 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-01-22 17:09:18.357  INFO [32m[][0;39m 7509 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-01-22 17:09:18.357  INFO [32m[][0;39m 7509 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2024-01-22 17:09:47.510  INFO [32m[][0;39m 7513 --- [restartedMain] o.d.starter.ApplicationStarter           : Starting ApplicationStarter using Java 17.0.4 with PID 7513 (/Users/marco/Workspace/source/java/digital_city/digital_city_web/build/classes/java/main started by marco in /Users/marco/Workspace/source/java/digital_city)
+2024-01-22 17:09:47.513  INFO [32m[][0;39m 7513 --- [restartedMain] o.d.starter.ApplicationStarter           : No active profile set, falling back to 1 default profile: "default"
+2024-01-22 17:09:47.528  INFO [32m[][0;39m 7513 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-01-22 17:09:47.528  INFO [32m[][0;39m 7513 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-01-22 17:09:47.884  INFO [32m[][0;39m 7513 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2024-01-22 17:09:47.888  INFO [32m[][0;39m 7513 --- [restartedMain] o.a.coyote.http11.Http11NioProtocol      : Initializing ProtocolHandler ["http-nio-8080"]
+2024-01-22 17:09:47.888  INFO [32m[][0;39m 7513 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-01-22 17:09:47.888  INFO [32m[][0;39m 7513 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.5]
+2024-01-22 17:09:47.911  INFO [32m[][0;39m 7513 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-01-22 17:09:47.912  INFO [32m[][0;39m 7513 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 383 ms
+2024-01-22 17:09:48.034  INFO [32m[][0;39m 7513 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-01-22 17:09:48.040  INFO [32m[][0;39m 7513 --- [restartedMain] o.a.coyote.http11.Http11NioProtocol      : Starting ProtocolHandler ["http-nio-8080"]
+2024-01-22 17:09:48.047  INFO [32m[][0;39m 7513 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2024-01-22 17:09:48.052  INFO [32m[][0;39m 7513 --- [restartedMain] o.d.starter.ApplicationStarter           : Started ApplicationStarter in 0.743 seconds (process running for 0.949)
+2024-01-22 17:10:05.907  INFO [32m[][0;39m 7515 --- [restartedMain] o.d.starter.ApplicationStarter           : Starting ApplicationStarter using Java 17.0.4 with PID 7515 (/Users/marco/Workspace/source/java/digital_city/digital_city_web/build/classes/java/main started by marco in /Users/marco/Workspace/source/java/digital_city)
+2024-01-22 17:10:05.910  INFO [32m[][0;39m 7515 --- [restartedMain] o.d.starter.ApplicationStarter           : No active profile set, falling back to 1 default profile: "default"
+2024-01-22 17:10:05.926  INFO [32m[][0;39m 7515 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-01-22 17:10:05.926  INFO [32m[][0;39m 7515 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-01-22 17:10:06.282  INFO [32m[][0;39m 7515 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2024-01-22 17:10:06.286  INFO [32m[][0;39m 7515 --- [restartedMain] o.a.coyote.http11.Http11NioProtocol      : Initializing ProtocolHandler ["http-nio-8080"]
+2024-01-22 17:10:06.287  INFO [32m[][0;39m 7515 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-01-22 17:10:06.287  INFO [32m[][0;39m 7515 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.5]
+2024-01-22 17:10:06.313  INFO [32m[][0;39m 7515 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-01-22 17:10:06.313  INFO [32m[][0;39m 7515 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 387 ms
+2024-01-22 17:10:06.435  WARN [33m[][0;39m 7515 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2024-01-22 17:10:06.441  INFO [32m[][0;39m 7515 --- [restartedMain] o.a.coyote.http11.Http11NioProtocol      : Starting ProtocolHandler ["http-nio-8080"]
+2024-01-22 17:10:06.442  WARN [33m[][0;39m 7515 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'
+2024-01-22 17:10:06.444  INFO [32m[][0;39m 7515 --- [restartedMain] o.a.coyote.http11.Http11NioProtocol      : Pausing ProtocolHandler ["http-nio-8080"]
+2024-01-22 17:10:06.444  INFO [32m[][0;39m 7515 --- [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2024-01-22 17:10:06.446  INFO [32m[][0;39m 7515 --- [restartedMain] o.a.coyote.http11.Http11NioProtocol      : Stopping ProtocolHandler ["http-nio-8080"]
+2024-01-22 17:10:06.447  INFO [32m[][0;39m 7515 --- [restartedMain] o.a.coyote.http11.Http11NioProtocol      : Destroying ProtocolHandler ["http-nio-8080"]
+2024-01-22 17:10:06.450  INFO [32m[][0;39m 7515 --- [restartedMain] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2024-01-22 17:10:06.456 ERROR [31m[][0;39m 7515 --- [restartedMain] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
+2024-01-22 17:10:15.174  INFO [32m[][0;39m 7517 --- [restartedMain] o.d.starter.ApplicationStarter           : Starting ApplicationStarter using Java 17.0.4 with PID 7517 (/Users/marco/Workspace/source/java/digital_city/digital_city_web/build/classes/java/main started by marco in /Users/marco/Workspace/source/java/digital_city)
+2024-01-22 17:10:15.177  INFO [32m[][0;39m 7517 --- [restartedMain] o.d.starter.ApplicationStarter           : No active profile set, falling back to 1 default profile: "default"
+2024-01-22 17:10:15.194  INFO [32m[][0;39m 7517 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-01-22 17:10:15.194  INFO [32m[][0;39m 7517 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-01-22 17:10:15.549  INFO [32m[][0;39m 7517 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2024-01-22 17:10:15.553  INFO [32m[][0;39m 7517 --- [restartedMain] o.a.coyote.http11.Http11NioProtocol      : Initializing ProtocolHandler ["http-nio-8080"]
+2024-01-22 17:10:15.554  INFO [32m[][0;39m 7517 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-01-22 17:10:15.554  INFO [32m[][0;39m 7517 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.5]
+2024-01-22 17:10:15.580  INFO [32m[][0;39m 7517 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-01-22 17:10:15.581  INFO [32m[][0;39m 7517 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 387 ms
+2024-01-22 17:10:15.700  WARN [33m[][0;39m 7517 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2024-01-22 17:10:15.706  INFO [32m[][0;39m 7517 --- [restartedMain] o.a.coyote.http11.Http11NioProtocol      : Starting ProtocolHandler ["http-nio-8080"]
+2024-01-22 17:10:15.708  WARN [33m[][0;39m 7517 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'
+2024-01-22 17:10:15.710  INFO [32m[][0;39m 7517 --- [restartedMain] o.a.coyote.http11.Http11NioProtocol      : Pausing ProtocolHandler ["http-nio-8080"]
+2024-01-22 17:10:15.710  INFO [32m[][0;39m 7517 --- [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2024-01-22 17:10:15.712  INFO [32m[][0;39m 7517 --- [restartedMain] o.a.coyote.http11.Http11NioProtocol      : Stopping ProtocolHandler ["http-nio-8080"]
+2024-01-22 17:10:15.712  INFO [32m[][0;39m 7517 --- [restartedMain] o.a.coyote.http11.Http11NioProtocol      : Destroying ProtocolHandler ["http-nio-8080"]
+2024-01-22 17:10:15.716  INFO [32m[][0;39m 7517 --- [restartedMain] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2024-01-22 17:10:15.724 ERROR [31m[][0;39m 7517 --- [restartedMain] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
+2024-01-22 17:11:49.850  INFO [32m[][0;39m 9428 --- [restartedMain] o.d.starter.ApplicationStarter           : Starting ApplicationStarter using Java 17.0.4 with PID 9428 (/Users/marco/Workspace/source/java/digital_city/digital_city_web/build/classes/java/main started by marco in /Users/marco/Workspace/source/java/digital_city)
+2024-01-22 17:11:49.853  INFO [32m[][0;39m 9428 --- [restartedMain] o.d.starter.ApplicationStarter           : No active profile set, falling back to 1 default profile: "default"
+2024-01-22 17:11:49.869  INFO [32m[][0;39m 9428 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-01-22 17:11:49.869  INFO [32m[][0;39m 9428 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-01-22 17:11:50.239  INFO [32m[][0;39m 9428 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2024-01-22 17:11:50.244  INFO [32m[][0;39m 9428 --- [restartedMain] o.a.coyote.http11.Http11NioProtocol      : Initializing ProtocolHandler ["http-nio-8080"]
+2024-01-22 17:11:50.244  INFO [32m[][0;39m 9428 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-01-22 17:11:50.244  INFO [32m[][0;39m 9428 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.5]
+2024-01-22 17:11:50.270  INFO [32m[][0;39m 9428 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-01-22 17:11:50.270  INFO [32m[][0;39m 9428 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 401 ms
+2024-01-22 17:11:50.410  INFO [32m[][0;39m 9428 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-01-22 17:11:50.417  INFO [32m[][0;39m 9428 --- [restartedMain] o.a.coyote.http11.Http11NioProtocol      : Starting ProtocolHandler ["http-nio-8080"]
+2024-01-22 17:11:50.427  INFO [32m[][0;39m 9428 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2024-01-22 17:11:50.432  INFO [32m[][0;39m 9428 --- [restartedMain] o.d.starter.ApplicationStarter           : Started ApplicationStarter in 0.784 seconds (process running for 0.992)
